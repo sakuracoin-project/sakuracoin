@@ -39,6 +39,7 @@ Once you've got the right hardware and software:
     cd gitian-builder
     bin/make-base-vm --arch i386
     bin/make-base-vm --arch amd64
+    bin/make-base-vm --arch amd64 --suite precise
     cd ..
 
     # Build Linux release:
