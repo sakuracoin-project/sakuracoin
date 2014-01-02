@@ -51,8 +51,11 @@ Once you've got the right hardware and software:
 
     # Build Win32 dependencies: (only needs to be done once, or when dependency versions change)
     ./bin/gbuild --commit sakuracoin=HEAD ../sakuracoin/contrib/gitian-descriptors/boost-win32.yml
+    mv build/out/inputs/boost-win32-1.54.0-gitian-r6.zip inputs/
     ./bin/gbuild --commit sakuracoin=HEAD ../sakuracoin/contrib/gitian-descriptors/deps-win32.yml
+    mv build/out/bitcoin-deps-win32-gitian-r9.zip inputs/
     ./bin/gbuild --commit sakuracoin=HEAD ../sakuracoin/contrib/gitian-descriptors/qt-win32.yml
+    mv build/out/qt-win32-4.8.3-gitian-r4.zip inputs/
 
     # Build Win32 release:
     ./bin/gbuild --commit sakuracoin=HEAD ../sakuracoin/contrib/gitian-descriptors/gitian-win32.yml
