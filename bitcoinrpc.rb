@@ -20,6 +20,11 @@ end
 
 now = Time.now
 fd = File.open("_posts/%s-Info.md" % now.strftime('%Y-%m-%d-%H'), 'w')
+
+fd.puts "---"
+fd.puts "layout: default"
+fd.puts "title: %H:%M の状態" % now.strftime('%H:%M'))
+fd.puts "---"
 fd.puts("# %s の状態" % now.strftime('%Y/%m/%d %H:%M'))
 
 TYPE2PORT.keys.each do |type|
