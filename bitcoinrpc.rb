@@ -1,4 +1,5 @@
 #!/usr/bin/ruby
+# encoding: utf-8
 require 'json'
 TYPE2CONF = {
   'namecoin' => 'bitcoin',
@@ -16,6 +17,10 @@ def rpcrequest(rpcuser, password, host, port, req)
   res = `curl -s -u #{rpcuser}:#{password} #{host}:#{port} -d '#{req.to_json}'`
   res.size == 0 ? nil : JSON.parse(res)
 end
+
+now = Time.now
+fd = File.open("_posts/%s-Info.md" % now.strftime('%Y-%m-%d-%H'), 'w')
+fd.puts("# %s の状態" % now.strftime('%Y/%m/%d %H:%M'))
 
 TYPE2PORT.keys.each do |type|
   setting = {}
@@ -35,14 +40,14 @@ TYPE2PORT.keys.each do |type|
   host = 'localhost'
   port = (setting['rpcport'] or TYPE2PORT[type]).to_i
 
-  puts
-  puts type
-
   #req = {"method" => "setgenerate", "params" => [false]}
 
   req = {"method" => "getinfo"}
   res = rpcrequest(rpcuser, password, host, port, req)
   next unless res
+  fd.puts
+  fd.puts "## %s" % type
+
   result = res['result']
   error = res['error']
   id = res['id']
@@ -53,23 +58,13 @@ TYPE2PORT.keys.each do |type|
   difficulty = result["difficulty"]
   paytxfee = result["paytxfee"]
   mininput = result["mininput"]
-  puts "B:%9.3f B:%d C:%d D:%f" % [balance, blocks, connections, difficulty]
 
-  req = {"method" => "listtransactions"}
-  res = rpcrequest(rpcuser, password, host, port, req)
-  next unless res
-  result = res['result']
-  error = res['error']
-  id = res['id']
-  (result[-4..-1] or []).each do |tx|
-    account = tx["account"]
-    address = tx["address"]
-    category = tx["category"]
-    amount = tx["amount"]
-    confirmations = tx["confirmations"]
-    time = Time.at(tx["time"])
-    timereceived = Time.at(tx["timereceived"])
-    puts "%s %f %s %d" % [time, amount, category, confirmations]
-  end
+  fd.puts "* ブロックチェインの高さ: %d ブロック" % blocks
+  fd.puts "* ブロックチェインの成長速度: N/A"
+  fd.puts "* 採掘難易度: %9.3f" % difficulty
+  fd.puts "* 次回採掘難易度変更: 残り N/A ブロック"
+  fd.puts "* シードノードへの接続ノード数: %d" % connections
 
 end
+
+fd.close
