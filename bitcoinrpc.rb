@@ -72,9 +72,11 @@ TYPE2PORT.keys.each do |type|
   lines << "* 採掘難易度: %.5f" % difficulty
   lines << "* 次回採掘難易度変更: 残り N/A ブロック"
   lines << "* シードノードへの接続ノード数: %d" % connections
-  target[:blocks] = blocks
-  target[:difficulty] = difficulty
-  target[:connections] = connections
+  if TARGETTYPE == type
+    target[:blocks] = blocks
+    target[:difficulty] = difficulty
+    target[:connections] = connections
+  end
 end
 
 lines[2] = "title: %s の状態(B:%d, D:%.5f, C:%d)" % [now.strftime('%H:%M'),
