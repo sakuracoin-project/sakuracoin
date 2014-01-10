@@ -12,20 +12,23 @@ TYPE2PORT = {
   'sakuracoin' => 9302,
   'sha1coin' => 9512,
 }
+TARGETTYPE = 'sakuracoin'
 
 def rpcrequest(rpcuser, password, host, port, req)
   res = `curl -s -u #{rpcuser}:#{password} #{host}:#{port} -d '#{req.to_json}'`
   res.size == 0 ? nil : JSON.parse(res)
 end
 
-now = Time.now
-fd = File.open("_posts/%s-Info.md" % now.strftime('%Y-%m-%d-%H'), 'w')
+target = {}
 
-fd.puts "---"
-fd.puts "layout: default"
-fd.puts "title: %H:%M の状態" % now.strftime('%H:%M'))
-fd.puts "---"
-fd.puts("# %s の状態" % now.strftime('%Y/%m/%d %H:%M'))
+now = Time.now
+lines = []
+
+lines << "---"
+lines << "layout: default"
+lines << "title: %s の状態" % [now.strftime('%H:%M')] # TODO
+lines << "---"
+lines << ("# %s の状態" % now.strftime('%Y/%m/%d %H:%M'))
 
 TYPE2PORT.keys.each do |type|
   setting = {}
@@ -50,8 +53,8 @@ TYPE2PORT.keys.each do |type|
   req = {"method" => "getinfo"}
   res = rpcrequest(rpcuser, password, host, port, req)
   next unless res
-  fd.puts
-  fd.puts "## %s" % type
+  lines << ''
+  lines << "## %s" % type
 
   result = res['result']
   error = res['error']
@@ -64,12 +67,19 @@ TYPE2PORT.keys.each do |type|
   paytxfee = result["paytxfee"]
   mininput = result["mininput"]
 
-  fd.puts "* ブロックチェインの高さ: %d ブロック" % blocks
-  fd.puts "* ブロックチェインの成長速度: N/A"
-  fd.puts "* 採掘難易度: %9.3f" % difficulty
-  fd.puts "* 次回採掘難易度変更: 残り N/A ブロック"
-  fd.puts "* シードノードへの接続ノード数: %d" % connections
-
+  lines << "* ブロックチェインの高さ: %d ブロック" % blocks
+  lines << "* ブロックチェインの成長速度: N/A"
+  lines << "* 採掘難易度: %.5f" % difficulty
+  lines << "* 次回採掘難易度変更: 残り N/A ブロック"
+  lines << "* シードノードへの接続ノード数: %d" % connections
+  target[:blocks] = blocks
+  target[:difficulty] = difficulty
+  target[:connections] = connections
 end
 
+lines[2] = "title: %s の状態(B:%d, D:%.5f, C:%d)" % [now.strftime('%H:%M'),
+    target[:blocks], target[:difficulty], target[:connections]]
+
+fd = File.open("_posts/%s-Info.md" % now.strftime('%Y-%m-%d-%H'), 'w')
+fd.print(lines.join("\n"))
 fd.close
