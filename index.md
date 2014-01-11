@@ -119,9 +119,11 @@ Mac OSX用のクライアントソフト
   * [sha1coin-20140111-19.tar.gz] Linux用
 * Monacoin野良ビルド
   * [monacoin-win32-setup-20140111-12.exe] Windows用インストーラ版
+  * [monacoin-win32-setup-20140111-12.exe-mirror] Windows用インストーラ版(Mirror)
   * [monacoin-qt-20140111-12.exe] Windows用スタンドアローン版
   * [monacoind-20140111-12.exe] Windows用コンソール版
   * [monacoin-20140111-12.tar.gz] Linux用
+  * [monacoin-20140111-12.tar.gz-mirror] Linux用(Mirror)
 
 ## ダウンロードについて
 
@@ -190,4 +192,6 @@ URLはohacのDropboxアカウントを使用しておりますので、こちら
 [monacoin-qt-20140111-12.exe]: https://dl.dropboxusercontent.com/u/5745602/monacoin-qt-20140104-13.exe
 [monacoind-20140111-12.exe]: https://dl.dropboxusercontent.com/u/5745602/monacoind-20140104-13.exe
 [monacoin-20140111-12.tar.gz]: https://dl.dropboxusercontent.com/u/5745602/monacoin-20140111-12.tar.gz
+[monacoin-win32-setup-20140111-12.exe-mirror]: http://ge.tt/23AoxjD1
+[monacoin-20140111-12.tar.gz-mirror]: http://ge.tt/3AYy0kD1
 [monacoin-qt]: https://dl.dropboxusercontent.com/u/5745602/monacoin-qt
