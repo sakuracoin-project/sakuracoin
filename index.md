@@ -43,17 +43,6 @@ Mac OSX用のクライアントソフト
 * なし
   * 作成する環境を持っていないので、どなたかご協力いただければ助かります。
 
-このページは開発者のみ編集可能に設定しておりますので、上記URLは他の人は改ざんできません。
-URLはohacのDropboxアカウントを使用しておりますので、こちらも改ざんできませんが、念のためmd5sumを
-付けておきます。
-
-    032c949ec0364901e39078d35deedd06 *sakuracoin-20140104-13-win32-setup.exe
-    6b49339eae97a82811cede23d8ac9d53 *sakuracoin-20140103-16-win32-setup.exe
-    d5a101eb688d76f3c2c899286af1a269 *sakuracoin-20140103-13-win32-setup.exe
-    d419c050074d11ed356abf8d4fb19ccd *sakuracoin-20130103-11-win32-setup.exe
-    d7fe00bdbcee3fb1bc55a87fd179ddce *sakuracoin-ubuntu13.10-amd64-20140101.zip
-    75be690cf6f33494fec1de579f80f9b0 *sakuracoin-win32-20140102.zip
-
 ## さくらコインの入手(試験運用中)
 
 下記のアドレスのいずれかにコインを送信して、ohachige.at.gmail.comに取引ID(トランザクションID)とあなたのさくらコインアドレスと交換元のコインの返送用アドレスをメールしてください。(返送用アドレスはコイン不足等のトラブルが起きた場合に使用します。)
@@ -128,19 +117,34 @@ URLはohacのDropboxアカウントを使用しておりますので、こちら
 
 * [Sha1coin]
 * Monacoin野良ビルド
+  * [monacoin-win32-setup-20140111-12.exe] Windows用インストーラ版
+  * [monacoin-qt-20140111-12.exe] Windows用スタンドアローン版
+  * [monacoind-20140111-12.exe] Windows用コンソール版
   * [monacoin-qt] Linux用
-  * [monacoin-20140104-13-win32-setup.exe] (近日公開予定)
+
+## ダウンロードについて
+
+このページは開発者のみ編集可能に設定しておりますので、ダウンロードのURLは他の人は改ざんできません。
+URLはohacのDropboxアカウントを使用しておりますので、こちらも改ざんできませんが、念のためmd5sumを付けておきます。
+
+    7e28a15e51bbf2e630fa322a3d07a4b0 *monacoin-win32-setup-20140111-12.exe
+    a89cafe70dd57d6bb5b2e0ad6aac3b39 *monacoin-qt-20140111-12.exe
+    bb0a5d9c60e7f9e8e690d089f0c60863 *monacoind-20140111-12.exe
+    032c949ec0364901e39078d35deedd06 *sakuracoin-20140104-13-win32-setup.exe
+    6b49339eae97a82811cede23d8ac9d53 *sakuracoin-20140103-16-win32-setup.exe
+    d5a101eb688d76f3c2c899286af1a269 *sakuracoin-20140103-13-win32-setup.exe
+    d419c050074d11ed356abf8d4fb19ccd *sakuracoin-20130103-11-win32-setup.exe
+    d7fe00bdbcee3fb1bc55a87fd179ddce *sakuracoin-ubuntu13.10-amd64-20140101.zip
+    75be690cf6f33494fec1de579f80f9b0 *sakuracoin-win32-20140102.zip
 
 ## 寄付
 
-[Donate SKR]
-[Donate SHA]
-[Donate MONA]
+[Donate-SKR], [Donate-SHA], [Donate-MONA]
 
 
-[Donate SKR]: sakuracoin:MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd
-[Donate SHA]: sha1coin:SQqr32xpK6hkmDyJRvPLaLFzqzfjq1Dr6f
-[Donate MONA]: monacoin:MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY
+[Donate-SKR]: sakuracoin:MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd
+[Donate-SHA]: sha1coin:SQqr32xpK6hkmDyJRvPLaLFzqzfjq1Dr6f
+[Donate-MONA]: monacoin:MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY
 [Bitmessage]: https://bitmessage.ch/
 [Sha1coin]: http://ohac.github.io/sha1coin/
 [sakuracoin-20140104-13-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140104-13-win32-setup.exe
@@ -152,5 +156,7 @@ URLはohacのDropboxアカウントを使用しておりますので、こちら
 [したらば掲示板交換]: http://jbbs.shitaraba.net/bbs/read.cgi/internet/19552/1388817096/l50
 [したらば掲示板]: http://jbbs.shitaraba.net/internet/19552/
 [外部Wiki1]: http://www59.atwiki.jp/japancryptocurrency/pages/15.html
-[monacoin-20140111-12-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/monacoin-20140104-13-win32-setup.exe (近日公開予定)
+[monacoin-win32-setup-20140111-12.exe]: https://dl.dropboxusercontent.com/u/5745602/monacoin-win32-setup-20140104-13.exe
+[monacoin-qt-20140111-12.exe]: https://dl.dropboxusercontent.com/u/5745602/monacoin-qt-20140104-13.exe
+[monacoind-20140111-12.exe]: https://dl.dropboxusercontent.com/u/5745602/monacoind-20140104-13.exe
 [monacoin-qt]: https://dl.dropboxusercontent.com/u/5745602/monacoin-qt
