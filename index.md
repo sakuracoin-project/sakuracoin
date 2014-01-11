@@ -30,7 +30,9 @@ Windows用のクライアントソフト
 * [sakuracoin-win32-setup-20140111-18.exe]
 * [sakuracoin-win32-setup-20140111-18.exe-mirror]
 * [sakuracoin-qt-20140111-18.exe]
+* [sakuracoin-qt-20140111-18.exe-mirror]
 * [sakuracoind-20140111-18.exe]
+* [sakuracoind-20140111-18.exe-mirror]
 
 Linux用のクライアントソフト
 
@@ -118,21 +120,25 @@ Mac OSX用のクライアントソフト
   * [sha1coin-win32-setup-20140111-18.exe] Windows用インストーラ版
   * [sha1coin-win32-setup-20140111-18.exe-mirror] Windows用インストーラ版(Mirror)
   * [sha1coin-qt-20140111-18.exe] Windows用スタンドアローン版
+  * [sha1coin-qt-20140111-18.exe-mirror] Windows用スタンドアローン版(Mirror)
   * [sha1coind-20140111-18.exe] Windows用コンソール版
+  * [sha1coind-20140111-18.exe-mirror] Windows用コンソール版(Mirror)
   * [sha1coin-20140111-19.tar.gz] Linux用
   * [sha1coin-20140111-19.tar.gz-mirror] Linux用(Mirror)
-* Monacoin野良ビルド
+* Monacoin野良ビルド(非公式ビルド)
   * [monacoin-win32-setup-20140111-12.exe] Windows用インストーラ版
   * [monacoin-win32-setup-20140111-12.exe-mirror] Windows用インストーラ版(Mirror)
   * [monacoin-qt-20140111-12.exe] Windows用スタンドアローン版
+  * [monacoin-qt-20140111-12.exe-mirror] Windows用スタンドアローン版(Mirror)
   * [monacoind-20140111-12.exe] Windows用コンソール版
+  * [monacoind-20140111-12.exe-mirror] Windows用コンソール版(Mirror)
   * [monacoin-20140111-12.tar.gz] Linux用
   * [monacoin-20140111-12.tar.gz-mirror] Linux用(Mirror)
 
 ## ダウンロードについて
 
 このページは開発者のみ編集可能に設定しておりますので、ダウンロードのURLは他の人は改ざんできません。
-URLはohacのDropboxアカウントを使用しておりますので、こちらも改ざんできませんが、念のためmd5sumを付けておきます。
+URLはohacのge.ttとDropboxアカウントを使用しておりますので、こちらも改ざんできませんが、念のためmd5sumを付けておきます。
 
     e2eabc5c52e576430abb6b21466c2888 *sakuracoin-win32-setup-20140111-18.exe
     6f8aea2aeb0e537d3727f1135db380c4 *sakuracoin-qt-20140111-18.exe
@@ -175,31 +181,37 @@ URLはohacのDropboxアカウントを使用しておりますので、こちら
 [Donate-MONA]: monacoin:MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY
 [Bitmessage]: https://bitmessage.ch/
 [Sha1coin]: http://ohac.github.io/sha1coin/
-[sakuracoin-win32-setup-20140111-18.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-win32-setup-20140111-18.exe
-[sakuracoin-win32-setup-20140111-18.exe-mirror]: http://ge.tt/8Ht3AkD1/v/0?c
-[sakuracoin-qt-20140111-18.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-qt-20140111-18.exe
-[sakuracoind-20140111-18.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoind-20140111-18.exe
-[sakuracoin-20140111-18.tar.gz]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140111-18.tar.gz
-[sakuracoin-20140111-18.tar.gz-mirror]: http://ge.tt/64iiAkD1/v/0?c
-[sha1coin-win32-setup-20140111-18.exe]: https://dl.dropboxusercontent.com/u/5745602/sha1coin-win32-setup-20140111-18.exe
-[sha1coin-win32-setup-20140111-18.exe-mirror]: http://ge.tt/5Un3BkD1/v/0?c
-[sha1coin-qt-20140111-18.exe]: https://dl.dropboxusercontent.com/u/5745602/sha1coin-qt-20140111-18.exe
-[sha1coind-20140111-18.exe]: https://dl.dropboxusercontent.com/u/5745602/sha1coind-20140111-18.exe
-[sha1coin-20140111-19.tar.gz]: https://dl.dropboxusercontent.com/u/5745602/sha1coin-20140111-19.tar.gz
-[sha1coin-20140111-19.tar.gz-mirror]: http://ge.tt/47PBBkD1/v/0?c
+[sakuracoin-win32-setup-20140111-18.exe]: http://ge.tt/8Ht3AkD1/v/0?c
+[sakuracoin-win32-setup-20140111-18.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-win32-setup-20140111-18.exe
+[sakuracoin-qt-20140111-18.exe]: http://ge.tt/31nu4lD1/v/3?c
+[sakuracoin-qt-20140111-18.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-qt-20140111-18.exe
+[sakuracoind-20140111-18.exe]: http://ge.tt/31nu4lD1/v/2?c
+[sakuracoind-20140111-18.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/sakuracoind-20140111-18.exe
+[sakuracoin-20140111-18.tar.gz]: http://ge.tt/64iiAkD1/v/0?c
+[sakuracoin-20140111-18.tar.gz-mirror]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140111-18.tar.gz
+[sha1coin-win32-setup-20140111-18.exe]: http://ge.tt/5Un3BkD1/v/0?c
+[sha1coin-win32-setup-20140111-18.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/sha1coin-win32-setup-20140111-18.exe
+[sha1coin-qt-20140111-18.exe]: http://ge.tt/31nu4lD1/v/5?c
+[sha1coin-qt-20140111-18.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/sha1coin-qt-20140111-18.exe
+[sha1coind-20140111-18.exe]: http://ge.tt/31nu4lD1/v/1?c
+[sha1coind-20140111-18.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/sha1coind-20140111-18.exe
+[sha1coin-20140111-19.tar.gz]: http://ge.tt/47PBBkD1/v/0?c
+[sha1coin-20140111-19.tar.gz-mirror]: https://dl.dropboxusercontent.com/u/5745602/sha1coin-20140111-19.tar.gz
+[monacoin-win32-setup-20140111-12.exe]: http://ge.tt/23AoxjD1
+[monacoin-win32-setup-20140111-12.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/monacoin-win32-setup-20140104-13.exe
+[monacoin-qt-20140111-12.exe]: http://ge.tt/31nu4lD1/v/4?c
+[monacoin-qt-20140111-12.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/monacoin-qt-20140104-13.exe
+[monacoind-20140111-12.exe]: http://ge.tt/31nu4lD1/v/0?c
+[monacoind-20140111-12.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/monacoind-20140104-13.exe
+[monacoin-20140111-12.tar.gz]: http://ge.tt/3AYy0kD1
+[monacoin-20140111-12.tar.gz-mirror]: https://dl.dropboxusercontent.com/u/5745602/monacoin-20140111-12.tar.gz
+[monacoin-qt]: https://dl.dropboxusercontent.com/u/5745602/monacoin-qt
+[したらば掲示板交換]: http://jbbs.shitaraba.net/bbs/read.cgi/internet/19552/1388817096/l50
+[したらば掲示板]: http://jbbs.shitaraba.net/internet/19552/
+[外部Wiki1]: http://www59.atwiki.jp/japancryptocurrency/pages/15.html
 [sakuracoin-20140104-13-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140104-13-win32-setup.exe
 [sakuracoin-20140103-16-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140103-16-win32-setup.exe
 [sakuracoin-20140103-13-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140103-13-win32-setup.exe
 [sakuracoin-20130103-11-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20130103-11-win32-setup.exe
 [sakuracoin-win32-20140102.zip]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-win32-20140102.zip
 [sakuracoin-ubuntu13.10-amd64-20140101.zip]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-ubuntu13.10-amd64-20140101.zip
-[したらば掲示板交換]: http://jbbs.shitaraba.net/bbs/read.cgi/internet/19552/1388817096/l50
-[したらば掲示板]: http://jbbs.shitaraba.net/internet/19552/
-[外部Wiki1]: http://www59.atwiki.jp/japancryptocurrency/pages/15.html
-[monacoin-win32-setup-20140111-12.exe]: https://dl.dropboxusercontent.com/u/5745602/monacoin-win32-setup-20140104-13.exe
-[monacoin-qt-20140111-12.exe]: https://dl.dropboxusercontent.com/u/5745602/monacoin-qt-20140104-13.exe
-[monacoind-20140111-12.exe]: https://dl.dropboxusercontent.com/u/5745602/monacoind-20140104-13.exe
-[monacoin-20140111-12.tar.gz]: https://dl.dropboxusercontent.com/u/5745602/monacoin-20140111-12.tar.gz
-[monacoin-win32-setup-20140111-12.exe-mirror]: http://ge.tt/23AoxjD1
-[monacoin-20140111-12.tar.gz-mirror]: http://ge.tt/3AYy0kD1
-[monacoin-qt]: https://dl.dropboxusercontent.com/u/5745602/monacoin-qt
