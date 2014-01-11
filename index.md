@@ -28,11 +28,6 @@ title: Sakuracoin
 Windows用のクライアントソフト
 
 * [sakuracoin-20140104-13-win32-setup.exe]
-* 旧バージョン
-  * [sakuracoin-20140103-16-win32-setup.exe]
-  * [sakuracoin-20140103-13-win32-setup.exe]
-  * [sakuracoin-20130103-11-win32-setup.exe]
-  * [sakuracoin-win32-20140102.zip]
 
 Ubuntu 13.10 amd64 用のクライアントソフト
 
@@ -120,13 +115,16 @@ Mac OSX用のクライアントソフト
   * [monacoin-win32-setup-20140111-12.exe] Windows用インストーラ版
   * [monacoin-qt-20140111-12.exe] Windows用スタンドアローン版
   * [monacoind-20140111-12.exe] Windows用コンソール版
-  * [monacoin-qt] Linux用
+  * [monacoin-20140111-12.tar.gz] Linux用
 
 ## ダウンロードについて
 
 このページは開発者のみ編集可能に設定しておりますので、ダウンロードのURLは他の人は改ざんできません。
 URLはohacのDropboxアカウントを使用しておりますので、こちらも改ざんできませんが、念のためmd5sumを付けておきます。
 
+    703879aba6b491368c318cb33ea655d1 *monacoin-20140111-12.tar.gz
+    242f14656e82a47ae0fd29cae17f2b1d *sha1coin-20140104-16-win32-setup.exe
+    f1eb58a3c45c47d5407fd6cf5e3c4576 *sha1coin-20140105-13-win32-setup.exe
     7e28a15e51bbf2e630fa322a3d07a4b0 *monacoin-win32-setup-20140111-12.exe
     a89cafe70dd57d6bb5b2e0ad6aac3b39 *monacoin-qt-20140111-12.exe
     bb0a5d9c60e7f9e8e690d089f0c60863 *monacoind-20140111-12.exe
@@ -136,6 +134,13 @@ URLはohacのDropboxアカウントを使用しておりますので、こちら
     d419c050074d11ed356abf8d4fb19ccd *sakuracoin-20130103-11-win32-setup.exe
     d7fe00bdbcee3fb1bc55a87fd179ddce *sakuracoin-ubuntu13.10-amd64-20140101.zip
     75be690cf6f33494fec1de579f80f9b0 *sakuracoin-win32-20140102.zip
+
+## 旧バージョンのダウンロード
+* [sakuracoin-20140103-16-win32-setup.exe]
+* [sakuracoin-20140103-13-win32-setup.exe]
+* [sakuracoin-20130103-11-win32-setup.exe]
+* [sakuracoin-win32-20140102.zip]
+* [monacoin-qt]
 
 ## 寄付
 
@@ -159,4 +164,5 @@ URLはohacのDropboxアカウントを使用しておりますので、こちら
 [monacoin-win32-setup-20140111-12.exe]: https://dl.dropboxusercontent.com/u/5745602/monacoin-win32-setup-20140104-13.exe
 [monacoin-qt-20140111-12.exe]: https://dl.dropboxusercontent.com/u/5745602/monacoin-qt-20140104-13.exe
 [monacoind-20140111-12.exe]: https://dl.dropboxusercontent.com/u/5745602/monacoind-20140104-13.exe
+[monacoin-20140111-12.tar.gz]: https://dl.dropboxusercontent.com/u/5745602/monacoin-20140111-12.tar.gz
 [monacoin-qt]: https://dl.dropboxusercontent.com/u/5745602/monacoin-qt
