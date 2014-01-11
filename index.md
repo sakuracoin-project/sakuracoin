@@ -26,6 +26,7 @@ title: Sakuracoin
 ## ダウンロード
 
 Windows用のクライアントソフト
+
 * https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140104-13-win32-setup.exe
 * 旧バージョン
   * https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140103-16-win32-setup.exe
@@ -34,9 +35,11 @@ Windows用のクライアントソフト
   * https://dl.dropboxusercontent.com/u/5745602/sakuracoin-win32-20140102.zip
 
 Ubuntu 13.10 amd64 用のクライアントソフト
+
 * https://dl.dropboxusercontent.com/u/5745602/sakuracoin-ubuntu13.10-amd64-20140101.zip
 
 Mac OSX用のクライアントソフト
+
 * なし
   * 作成する環境を持っていないので、どなたかご協力いただければ助かります。
 
@@ -123,9 +126,9 @@ URLはohacのDropboxアカウントを使用しておりますので、こちら
 
 ## その他のコイン
 
-* http://ohac.github.io/sha1coin/ Sha1coin
+* [http://ohac.github.io/sha1coin/] Sha1coin
 * Monacoin野良ビルド
-  * https://dl.dropboxusercontent.com/u/5745602/monacoin-qt
+  * [https://dl.dropboxusercontent.com/u/5745602/monacoin-qt]
   * ttps://dl.dropboxusercontent.com/u/5745602/monacoin-20140104-13-win32-setup.exe (近日公開予定)
 
 ## 寄付
