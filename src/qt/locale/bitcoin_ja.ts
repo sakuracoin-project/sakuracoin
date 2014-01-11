@@ -60,7 +60,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-11"/>
         <source>&amp;New Address</source>
-        <translation>新しいアドレス (&amp;N)</translation>
+        <translation>新しいアドレス(&amp;N)</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
@@ -70,12 +70,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>&amp;Copy Address</source>
-        <translation>アドレスのコピー (&amp;C)</translation>
+        <translation>アドレスのコピー(&amp;C)</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
-        <translation>QR コードの表示 (&amp;Q)</translation>
+        <translation>QRコードの表示(&amp;Q)</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -85,7 +85,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>メッセージへの署名 (&amp;M)</translation>
+        <translation>メッセージへの署名(&amp;M)</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -100,7 +100,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>&amp;Export</source>
-        <translation>エクスポート (&amp;E)</translation>
+        <translation>エクスポート(&amp;E)</translation>
     </message>
     <message>
         <location line="-44"/>
@@ -110,12 +110,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>&amp;Verify Message</source>
-        <translation>メッセージの署名確認 (&amp;V)</translation>
+        <translation>メッセージの署名確認(&amp;V)</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>削除 (&amp;D)</translation>
+        <translation>削除(&amp;D)</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
@@ -125,17 +125,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+13"/>
         <source>Copy &amp;Label</source>
-        <translation>ラベルのコピー (&amp;L)</translation>
+        <translation>ラベルのコピー(&amp;L)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation>編集 (&amp;E)</translation>
+        <translation>編集(&amp;E)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation>コインを送る (&amp;C)</translation>
+        <translation>コインを送る(&amp;C)</translation>
     </message>
     <message>
         <location line="+260"/>
@@ -322,7 +322,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation>メッセージへの署名 (&amp;M)...</translation>
+        <translation>メッセージへの署名(&amp;M)...</translation>
     </message>
     <message>
         <location line="+280"/>
@@ -332,7 +332,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-349"/>
         <source>&amp;Overview</source>
-        <translation>概要 (&amp;O)</translation>
+        <translation>概要(&amp;O)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -342,7 +342,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation>取引 (&amp;T)</translation>
+        <translation>取引(&amp;T)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -362,7 +362,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation>終了 (&amp;E)</translation>
+        <translation>終了(&amp;X)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -382,27 +382,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>Qt につての情報を見る</translation>
+        <translation>Qtについての情報を見る</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>オプション (&amp;O)...</translation>
+        <translation>オプション(&amp;O)...</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>ウォレットの暗号化 (&amp;E)...</translation>
+        <translation>ウォレットの暗号化(&amp;E)...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>ウォレットのバックアップ (&amp;B)...</translation>
+        <translation>ウォレットのバックアップ(&amp;B)...</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>パスフレーズの変更 (&amp;C)...</translation>
+        <translation>パスフレーズの変更(&amp;C)...</translation>
     </message>
     <message>
         <location line="+285"/>
@@ -437,7 +437,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation>デバッグウィンドウ (&amp;D)</translation>
+        <translation>デバッグウィンドウ(&amp;D)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -447,7 +447,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation>メッセージの署名確認 (&amp;V)...</translation>
+        <translation>メッセージの署名確認(&amp;V)...</translation>
     </message>
     <message>
         <location line="-165"/>
@@ -463,27 +463,27 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+101"/>
         <source>&amp;Send</source>
-        <translation>送る (&amp;S)</translation>
+        <translation>送る(&amp;S)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation>受け取る (&amp;R)</translation>
+        <translation>受け取る(&amp;R)</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>&amp;Addresses</source>
-        <translation>アドレス (&amp;A)</translation>
+        <translation>アドレス(&amp;A)</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>&amp;About Sakuracoin</source>
-        <translation>さくらコインについて (&amp;A)</translation>
+        <translation>さくらコインについて(&amp;A)</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>&amp;Show / Hide</source>
-        <translation>表示 / 隠す (&amp;S)</translation>
+        <translation>表示 / 隠す(&amp;S)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -508,17 +508,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+28"/>
         <source>&amp;File</source>
-        <translation>ファイル (&amp;F)</translation>
+        <translation>ファイル(&amp;F)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Settings</source>
-        <translation>設定 (&amp;S)</translation>
+        <translation>設定(&amp;S)</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Help</source>
-        <translation>ヘルプ (&amp;H)</translation>
+        <translation>ヘルプ(&amp;H)</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -540,7 +540,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+141"/>
         <source>%n active connection(s) to Sakuracoin network</source>
         <translation>
-            <numerusform>さくらコインネットワークへのアクティブなコネクション数 :%n</numerusform>
+            <numerusform>さくらコインネットワークへのアクティブなコネクション数: %n</numerusform>
         </translation>
     </message>
     <message>
@@ -698,7 +698,7 @@ Address: %4
     <message>
         <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>ラベル (&amp;L)</translation>
+        <translation>ラベル(&amp;L)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -708,7 +708,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>&amp;Address</source>
-        <translation>アドレス (&amp;A)</translation>
+        <translation>アドレス(&amp;A)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -772,7 +772,7 @@ Address: %4
     <message>
         <location line="+2"/>
         <source>Usage:</source>
-        <translation>使い方 :</translation>
+        <translation>使い方:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -782,7 +782,7 @@ Address: %4
     <message>
         <location line="+4"/>
         <source>UI options</source>
-        <translation>UI オプション</translation>
+        <translation>UIオプション</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -810,7 +810,7 @@ Address: %4
     <message>
         <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>メイン (&amp;M)</translation>
+        <translation>メイン(&amp;M)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -820,7 +820,7 @@ Address: %4
     <message>
         <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>取引手数料の支払い (&amp;F)</translation>
+        <translation>取引手数料の支払い(&amp;F)</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -845,7 +845,7 @@ Address: %4
     <message>
         <location line="+13"/>
         <source>&amp;Network</source>
-        <translation>ネットワーク (&amp;N)</translation>
+        <translation>ネットワーク(&amp;N)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -900,7 +900,7 @@ Address: %4
     <message>
         <location line="+36"/>
         <source>&amp;Window</source>
-        <translation>ウィンドウ (&amp;W)</translation>
+        <translation>ウィンドウ(&amp;W)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -925,7 +925,7 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>ディスプレイ (&amp;D)</translation>
+        <translation>ディスプレイ(&amp;D)</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -970,7 +970,7 @@ Address: %4
     <message>
         <location line="+10"/>
         <source>&amp;Apply</source>
-        <translation>適用 (&amp;A)</translation>
+        <translation>適用(&amp;A)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="+53"/>
@@ -1083,7 +1083,7 @@ Address: %4
     <message>
         <location filename="../forms/qrcodedialog.ui" line="+14"/>
         <source>QR Code Dialog</source>
-        <translation>QR コードダイアログ</translation>
+        <translation>QRコードダイアログ</translation>
     </message>
     <message>
         <location line="+59"/>
@@ -1305,7 +1305,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>支払先の追加 (&amp;R)</translation>
+        <translation>支払先の追加(&amp;R)</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1315,7 +1315,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>すべてクリア (&amp;A)</translation>
+        <translation>すべてクリア(&amp;A)</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -1403,12 +1403,12 @@ Address: %4
     <message>
         <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>額 (&amp;M):</translation>
+        <translation>額(&amp;M):</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>支払先 (&amp;T):</translation>
+        <translation>支払先(&amp;T):</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -1424,7 +1424,7 @@ Address: %4
     <message>
         <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation>ラベル (&amp;L):</translation>
+        <translation>ラベル(&amp;L):</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -1467,7 +1467,7 @@ Address: %4
     <message>
         <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation>メッセージへの署名 (&amp;M)</translation>
+        <translation>メッセージへの署名(&amp;S)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2160,7 +2160,7 @@ Address: %4
     <message>
         <location filename="../walletview.cpp" line="+42"/>
         <source>&amp;Export</source>
-        <translation>エクスポート (&amp;E)</translation>
+        <translation>エクスポート(&amp;E)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2208,7 +2208,7 @@ Address: %4
     <message>
         <location line="+102"/>
         <source>Usage:</source>
-        <translation>使い方 :</translation>
+        <translation>使い方:</translation>
     </message>
     <message>
         <location line="-29"/>
