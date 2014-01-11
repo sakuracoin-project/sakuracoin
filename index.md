@@ -27,16 +27,16 @@ title: Sakuracoin
 
 Windows用のクライアントソフト
 
-* https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140104-13-win32-setup.exe
+* [sakuracoin-20140104-13-win32-setup.exe]
 * 旧バージョン
-  * https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140103-16-win32-setup.exe
-  * https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140103-13-win32-setup.exe
-  * https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20130103-11-win32-setup.exe
-  * https://dl.dropboxusercontent.com/u/5745602/sakuracoin-win32-20140102.zip
+  * [sakuracoin-20140103-16-win32-setup.exe]
+  * [sakuracoin-20140103-13-win32-setup.exe]
+  * [sakuracoin-20130103-11-win32-setup.exe]
+  * [sakuracoin-win32-20140102.zip]
 
 Ubuntu 13.10 amd64 用のクライアントソフト
 
-* https://dl.dropboxusercontent.com/u/5745602/sakuracoin-ubuntu13.10-amd64-20140101.zip
+* [sakuracoin-ubuntu13.10-amd64-20140101.zip]
 
 Mac OSX用のクライアントソフト
 
@@ -71,7 +71,7 @@ URLはohacのDropboxアカウントを使用しておりますので、こちら
 
 ## 外部の交換所(Exchange)
 
-* したらば掲示板 http://jbbs.shitaraba.net/bbs/read.cgi/internet/19552/1388817096/l50
+* [したらば掲示板交換]
 
 ## sakuracoin.conf 設定例
 
@@ -121,15 +121,15 @@ URLはohacのDropboxアカウントを使用しておりますので、こちら
 
 ## Others
 
-* http://jbbs.shitaraba.net/internet/19552/ 掲示板
-* http://www59.atwiki.jp/japancryptocurrency/pages/15.html 外部Wiki
+* [したらば掲示板]
+* [外部Wiki1]
 
 ## その他のコイン
 
-* [http://ohac.github.io/sha1coin/] Sha1coin
+* [Sha1coin]
 * Monacoin野良ビルド
-  * [https://dl.dropboxusercontent.com/u/5745602/monacoin-qt]
-  * ttps://dl.dropboxusercontent.com/u/5745602/monacoin-20140104-13-win32-setup.exe (近日公開予定)
+  * [monacoin-qt] Linux用
+  * [monacoin-20140104-13-win32-setup.exe] (近日公開予定)
 
 ## 寄付
 
@@ -137,7 +137,20 @@ URLはohacのDropboxアカウントを使用しておりますので、こちら
 [Donate SHA]
 [Donate MONA]
 
+
 [Donate SKR]: sakuracoin:MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd
 [Donate SHA]: sha1coin:SQqr32xpK6hkmDyJRvPLaLFzqzfjq1Dr6f
 [Donate MONA]: monacoin:MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY
 [Bitmessage]: https://bitmessage.ch/
+[Sha1coin]: http://ohac.github.io/sha1coin/
+[sakuracoin-20140104-13-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140104-13-win32-setup.exe
+[sakuracoin-20140103-16-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140103-16-win32-setup.exe
+[sakuracoin-20140103-13-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140103-13-win32-setup.exe
+[sakuracoin-20130103-11-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20130103-11-win32-setup.exe
+[sakuracoin-win32-20140102.zip]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-win32-20140102.zip
+[sakuracoin-ubuntu13.10-amd64-20140101.zip]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-ubuntu13.10-amd64-20140101.zip
+[したらば掲示板交換]: http://jbbs.shitaraba.net/bbs/read.cgi/internet/19552/1388817096/l50
+[したらば掲示板]: http://jbbs.shitaraba.net/internet/19552/
+[外部Wiki1]: http://www59.atwiki.jp/japancryptocurrency/pages/15.html
+[monacoin-20140111-12-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/monacoin-20140104-13-win32-setup.exe (近日公開予定)
+[monacoin-qt]: https://dl.dropboxusercontent.com/u/5745602/monacoin-qt
