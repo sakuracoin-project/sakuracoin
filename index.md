@@ -27,11 +27,13 @@ title: Sakuracoin
 
 Windows用のクライアントソフト
 
-* [sakuracoin-20140104-13-win32-setup.exe]
+* [sakuracoin-win32-setup-20140111-18.exe]
+* [sakuracoin-qt-20140111-18.exe]
+* [sakuracoind-20140111-18.exe]
 
-Ubuntu 13.10 amd64 用のクライアントソフト
+Linux用のクライアントソフト
 
-* [sakuracoin-ubuntu13.10-amd64-20140101.zip]
+* [sakuracoin-20140111-18.tar.gz]
 
 Mac OSX用のクライアントソフト
 
@@ -111,6 +113,10 @@ Mac OSX用のクライアントソフト
 ## その他のコイン
 
 * [Sha1coin]
+  * [sha1coin-win32-setup-20140111-18.exe] Windows用インストーラ版
+  * [sha1coin-qt-20140111-18.exe] Windows用スタンドアローン版
+  * [sha1coind-20140111-18.exe] Windows用コンソール版
+  * [sha1coin-20140111-19.tar.gz] Linux用
 * Monacoin野良ビルド
   * [monacoin-win32-setup-20140111-12.exe] Windows用インストーラ版
   * [monacoin-qt-20140111-12.exe] Windows用スタンドアローン版
@@ -122,24 +128,35 @@ Mac OSX用のクライアントソフト
 このページは開発者のみ編集可能に設定しておりますので、ダウンロードのURLは他の人は改ざんできません。
 URLはohacのDropboxアカウントを使用しておりますので、こちらも改ざんできませんが、念のためmd5sumを付けておきます。
 
-    703879aba6b491368c318cb33ea655d1 *monacoin-20140111-12.tar.gz
-    242f14656e82a47ae0fd29cae17f2b1d *sha1coin-20140104-16-win32-setup.exe
-    f1eb58a3c45c47d5407fd6cf5e3c4576 *sha1coin-20140105-13-win32-setup.exe
-    7e28a15e51bbf2e630fa322a3d07a4b0 *monacoin-win32-setup-20140111-12.exe
-    a89cafe70dd57d6bb5b2e0ad6aac3b39 *monacoin-qt-20140111-12.exe
-    bb0a5d9c60e7f9e8e690d089f0c60863 *monacoind-20140111-12.exe
+    e2eabc5c52e576430abb6b21466c2888 *sakuracoin-win32-setup-20140111-18.exe
+    6f8aea2aeb0e537d3727f1135db380c4 *sakuracoin-qt-20140111-18.exe
+    87c2912b3b07924d3514e632a762ab82 *sakuracoind-20140111-18.exe
+    3eb15c289a0cb0ac81e2dae252f8c944 *sakuracoin-20140111-18.tar.gz
     032c949ec0364901e39078d35deedd06 *sakuracoin-20140104-13-win32-setup.exe
     6b49339eae97a82811cede23d8ac9d53 *sakuracoin-20140103-16-win32-setup.exe
     d5a101eb688d76f3c2c899286af1a269 *sakuracoin-20140103-13-win32-setup.exe
     d419c050074d11ed356abf8d4fb19ccd *sakuracoin-20130103-11-win32-setup.exe
     d7fe00bdbcee3fb1bc55a87fd179ddce *sakuracoin-ubuntu13.10-amd64-20140101.zip
     75be690cf6f33494fec1de579f80f9b0 *sakuracoin-win32-20140102.zip
+    55a61d57f60c22677ed7a3dd5806e370 *sha1coin-win32-setup-20140111-18.exe
+    52623d350fa82e3cb3dee8215e07bfae *sha1coin-qt-20140111-18.exe
+    53595757fe563b8348f6f8b609758cfd *sha1coind-20140111-18.exe
+    a12774e919942921d6d1ff49252eafa3 *sha1coin-20140111-19.tar.gz
+    242f14656e82a47ae0fd29cae17f2b1d *sha1coin-20140104-16-win32-setup.exe
+    f1eb58a3c45c47d5407fd6cf5e3c4576 *sha1coin-20140105-13-win32-setup.exe
+    7e28a15e51bbf2e630fa322a3d07a4b0 *monacoin-win32-setup-20140111-12.exe
+    a89cafe70dd57d6bb5b2e0ad6aac3b39 *monacoin-qt-20140111-12.exe
+    bb0a5d9c60e7f9e8e690d089f0c60863 *monacoind-20140111-12.exe
+    703879aba6b491368c318cb33ea655d1 *monacoin-20140111-12.tar.gz
+
 
 ## 旧バージョンのダウンロード
+* [sakuracoin-20140104-13-win32-setup.exe]
 * [sakuracoin-20140103-16-win32-setup.exe]
 * [sakuracoin-20140103-13-win32-setup.exe]
 * [sakuracoin-20130103-11-win32-setup.exe]
 * [sakuracoin-win32-20140102.zip]
+* [sakuracoin-ubuntu13.10-amd64-20140101.zip]
 * [monacoin-qt]
 
 ## 寄付
@@ -152,6 +169,14 @@ URLはohacのDropboxアカウントを使用しておりますので、こちら
 [Donate-MONA]: monacoin:MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY
 [Bitmessage]: https://bitmessage.ch/
 [Sha1coin]: http://ohac.github.io/sha1coin/
+[sakuracoin-win32-setup-20140111-18.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-win32-setup-20140111-18.exe
+[sakuracoin-qt-20140111-18.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-qt-20140111-18.exe
+[sakuracoind-20140111-18.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoind-20140111-18.exe
+[sakuracoin-20140111-18.tar.gz]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140111-18.tar.gz
+[sha1coin-win32-setup-20140111-18.exe]: https://dl.dropboxusercontent.com/u/5745602/sha1coin-win32-setup-20140111-18.exe
+[sha1coin-qt-20140111-18.exe]: https://dl.dropboxusercontent.com/u/5745602/sha1coin-qt-20140111-18.exe
+[sha1coind-20140111-18.exe]: https://dl.dropboxusercontent.com/u/5745602/sha1coind-20140111-18.exe
+[sha1coin-20140111-19.tar.gz]: https://dl.dropboxusercontent.com/u/5745602/sha1coin-20140111-19.tar.gz
 [sakuracoin-20140104-13-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140104-13-win32-setup.exe
 [sakuracoin-20140103-16-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140103-16-win32-setup.exe
 [sakuracoin-20140103-13-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140103-13-win32-setup.exe
