@@ -10,7 +10,7 @@ title: Sakuracoin
 <ul>
 {% for post in site.posts limit:10 %}
 <li>
-<a href="/sakuracoin/{{post.url}}">{{ post.date | date_to_long_string }} : {{ post.title }}</a>
+<a href="/sakuracoin{{post.url}}">{{ post.date | date_to_long_string }} : {{ post.title }}</a>
 </li>
 {% endfor %}
 </ul>
@@ -43,6 +43,10 @@ Mac OSX用のクライアントソフト
 
 * なし
   * 作成する環境を持っていないので、どなたかご協力いただければ助かります。
+
+ソースコード
+
+* [sakuracoin]
 
 ## さくらコインの入手(試験運用中)
 
@@ -215,3 +219,4 @@ URLはohacのge.ttとDropboxアカウントを使用しておりますので、�
 [sakuracoin-20130103-11-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20130103-11-win32-setup.exe
 [sakuracoin-win32-20140102.zip]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-win32-20140102.zip
 [sakuracoin-ubuntu13.10-amd64-20140101.zip]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-ubuntu13.10-amd64-20140101.zip
+[sakuracoin]: https://github.com/ohac/sakuracoin
