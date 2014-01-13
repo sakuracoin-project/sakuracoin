@@ -121,23 +121,11 @@ Mac OSX用のクライアントソフト
 ## その他のコイン
 
 * [Sha1coin]
-  * [sha1coin-win32-setup-20140111-18.exe] Windows用インストーラ版
-  * [sha1coin-win32-setup-20140111-18.exe-mirror] Windows用インストーラ版(Mirror)
-  * [sha1coin-qt-20140111-18.exe] Windows用スタンドアローン版
-  * [sha1coin-qt-20140111-18.exe-mirror] Windows用スタンドアローン版(Mirror)
-  * [sha1coind-20140111-18.exe] Windows用コンソール版
-  * [sha1coind-20140111-18.exe-mirror] Windows用コンソール版(Mirror)
-  * [sha1coin-20140111-19.tar.gz] Linux用
-  * [sha1coin-20140111-19.tar.gz-mirror] Linux用(Mirror)
 * Monacoin野良ビルド(非公式ビルド)
   * [monacoin-win32-setup-20140111-12.exe] Windows用インストーラ版
-  * [monacoin-win32-setup-20140111-12.exe-mirror] Windows用インストーラ版(Mirror)
   * [monacoin-qt-20140111-12.exe] Windows用スタンドアローン版
-  * [monacoin-qt-20140111-12.exe-mirror] Windows用スタンドアローン版(Mirror)
   * [monacoind-20140111-12.exe] Windows用コンソール版
-  * [monacoind-20140111-12.exe-mirror] Windows用コンソール版(Mirror)
   * [monacoin-20140111-12.tar.gz] Linux用
-  * [monacoin-20140111-12.tar.gz-mirror] Linux用(Mirror)
 
 ## ダウンロードについて
 
