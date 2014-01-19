@@ -122,10 +122,7 @@ Mac OSX用のクライアントソフト
 
 * [Sha1coin]
 * Monacoin野良ビルド(非公式ビルド)
-  * [monacoin-win32-setup-20140111-12.exe] Windows用インストーラ版
-  * [monacoin-qt-20140111-12.exe] Windows用スタンドアローン版
-  * [monacoind-20140111-12.exe] Windows用コンソール版
-  * [monacoin-20140111-12.tar.gz] Linux用
+  * [ここからダウンロード]してください。(2014/01/19 11:00バージョン)
 
 ## ダウンロードについて
 
@@ -148,6 +145,10 @@ URLはohacのge.ttとDropboxアカウントを使用しておりますので、�
     a12774e919942921d6d1ff49252eafa3 *sha1coin-20140111-19.tar.gz
     242f14656e82a47ae0fd29cae17f2b1d *sha1coin-20140104-16-win32-setup.exe
     f1eb58a3c45c47d5407fd6cf5e3c4576 *sha1coin-20140105-13-win32-setup.exe
+    4d31ebd42c0723c521d58160cfdb1848 *monacoin-win32-setup-20140119-10.exe
+    5ee5b46213cef9224e96d9b79c2a3e99 *monacoin-qt-20140119-10.exe
+    6f5c82b6ff5273fb656f085e780374f6 *monacoin-20140119-11.tar.gz
+    b24bbf02009f5cf6716199e5ec55eb5a *monacoind-20140119-10.exe
     7e28a15e51bbf2e630fa322a3d07a4b0 *monacoin-win32-setup-20140111-12.exe
     a89cafe70dd57d6bb5b2e0ad6aac3b39 *monacoin-qt-20140111-12.exe
     bb0a5d9c60e7f9e8e690d089f0c60863 *monacoind-20140111-12.exe
@@ -161,6 +162,10 @@ URLはohacのge.ttとDropboxアカウントを使用しておりますので、�
 * [sakuracoin-20130103-11-win32-setup.exe]
 * [sakuracoin-win32-20140102.zip]
 * [sakuracoin-ubuntu13.10-amd64-20140101.zip]
+* [monacoin-win32-setup-20140111-12.exe] Windows用インストーラ版
+* [monacoin-qt-20140111-12.exe] Windows用スタンドアローン版
+* [monacoind-20140111-12.exe] Windows用コンソール版
+* [monacoin-20140111-12.tar.gz] Linux用
 * [monacoin-qt]
 
 ## 寄付
@@ -208,3 +213,4 @@ URLはohacのge.ttとDropboxアカウントを使用しておりますので、�
 [sakuracoin-win32-20140102.zip]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-win32-20140102.zip
 [sakuracoin-ubuntu13.10-amd64-20140101.zip]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-ubuntu13.10-amd64-20140101.zip
 [sakuracoin]: https://github.com/ohac/sakuracoin
+[ここからダウンロード]: http://ge.tt/24MStBE1?c
