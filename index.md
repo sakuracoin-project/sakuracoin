@@ -115,6 +115,7 @@ Mac OSX用のクライアントソフト
 
 ## Others
 
+* [Webウォレット] (テスト中)
 * [したらば掲示板]
 * [外部Wiki1]
 
@@ -215,3 +216,4 @@ URLはohacのge.ttとDropboxアカウントを使用しておりますので、�
 [sakuracoin]: https://github.com/ohac/sakuracoin
 [ここからダウンロード]: http://ge.tt/24MStBE1?c
 [Sakura Pool]: http://sakurapool.dip.jp/
+[Webウォレット]: http://coins.asiru.info/index2.html
