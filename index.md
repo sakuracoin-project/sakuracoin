@@ -90,7 +90,7 @@ Mac OSX用のクライアントソフト
 
 ## 採掘所(Pools)
 
-なし
+* [Sakura Pool]
 
 ## ブロック情報(Block explorer)
 
@@ -214,3 +214,4 @@ URLはohacのge.ttとDropboxアカウントを使用しておりますので、�
 [sakuracoin-ubuntu13.10-amd64-20140101.zip]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-ubuntu13.10-amd64-20140101.zip
 [sakuracoin]: https://github.com/ohac/sakuracoin
 [ここからダウンロード]: http://ge.tt/24MStBE1?c
+[Sakura Pool]: http://sakurapool.dip.jp/
