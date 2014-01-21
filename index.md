@@ -86,7 +86,8 @@ Mac OSX用のクライアントソフト
 * Block reward: 50 SKR
 * Block time: 1.5 minutes
 * Retarget: 2400 blocks
-* Totalcoins: ? million
+* subsidy halves in 1051k blocks (~3 years)
+* Totalcoins: 105.1 million
 
 ## 採掘所(Pools)
 
