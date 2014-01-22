@@ -5,6 +5,8 @@ title: Sakuracoin
 
 # Sakuracoin
 
+![sakuracoin64](images/sakuracoin64.png)
+
 いつも「さくらコイン」にご協力いただき、ありがとうございます。
 
 <ul>
@@ -122,7 +124,7 @@ Mac OSX用のクライアントソフト
 
 ## その他のコイン
 
-* [Sha1coin]
+* ![sha1coin64](images/sha1coin64.png) [Sha1coin]
 * Monacoin野良ビルド(非公式ビルド)
   * [ここからダウンロード]してください。(2014/01/19 11:00バージョン)
 
