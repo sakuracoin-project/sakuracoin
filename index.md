@@ -53,7 +53,7 @@ Mac OSX用のクライアントソフト
 下記のアドレスのいずれかにコインを送信して、ohachige.at.gmail.comに取引ID(トランザクションID)とあなたのさくらコインアドレスと交換元のコインの返送用アドレスをメールしてください。(返送用アドレスはコイン不足等のトラブルが起きた場合に使用します。)
 
 * Sha1coin SQqr32xpK6hkmDyJRvPLaLFzqzfjq1Dr6f
-  * 1口 100.00SHA => 200.00SKR
+  * 1口 100.00SHA => 150.00SKR
   * 最大10口(1000.00SHA)まで
 * Monacoin MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY
   * 1口 1.00MONA =>  50.00SKR
