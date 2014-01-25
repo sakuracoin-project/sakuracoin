@@ -165,6 +165,7 @@ Android用のクライアントソフト
 このページは開発者のみ編集可能に設定しておりますので、ダウンロードのURLは他の人は改ざんできません。
 URLはohacのge.ttとDropboxアカウントを使用しておりますので、こちらも改ざんできませんが、念のためmd5sumを付けておきます。
 
+    7888f8ad9e6c1a76571ddd6de568555a *wallet-0.07.apk
     e2eabc5c52e576430abb6b21466c2888 *sakuracoin-win32-setup-20140111-18.exe
     6f8aea2aeb0e537d3727f1135db380c4 *sakuracoin-qt-20140111-18.exe
     87c2912b3b07924d3514e632a762ab82 *sakuracoind-20140111-18.exe
@@ -175,6 +176,7 @@ URLはohacのge.ttとDropboxアカウントを使用しておりますので、�
     d419c050074d11ed356abf8d4fb19ccd *sakuracoin-20130103-11-win32-setup.exe
     d7fe00bdbcee3fb1bc55a87fd179ddce *sakuracoin-ubuntu13.10-amd64-20140101.zip
     75be690cf6f33494fec1de579f80f9b0 *sakuracoin-win32-20140102.zip
+    14959342ce64dea2d153524fd5df3ebd *sakuracoinishv2-20140125-18.zip
     55a61d57f60c22677ed7a3dd5806e370 *sha1coin-win32-setup-20140111-18.exe
     52623d350fa82e3cb3dee8215e07bfae *sha1coin-qt-20140111-18.exe
     53595757fe563b8348f6f8b609758cfd *sha1coind-20140111-18.exe
