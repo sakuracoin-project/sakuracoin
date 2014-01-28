@@ -68,20 +68,26 @@ Mac OSX用のクライアントソフト
 * なし
   * 作成する環境を持っていないので、どなたかご協力いただければ助かります。
 
-Android用のクライアントソフト(準備中)
-
-* [ここからダウンロード]してください。(2014/01/25 18:00バージョン)
-  * ファイル名: wallet-0.07.apk
-
-マインクラフト用のプラグイン(準備中)
-
-* [ここからダウンロード]してください。(2014/01/25 18:00バージョン)
-  * ファイル名: sakuracoinishv2-20140125-18.zip
-  * Vault-1.2.30.jar http://ge.tt/9WmWMhG1/v/0?c
-
 ソースコード
 
 * [sakuracoin]
+
+Android用のクライアントソフト
+
+* [ここからダウンロード]してください。(2014/01/25 20:00バージョン)
+  * wallet-0.07-20140125-20.apk
+    * https://github.com/ohac/sakuracoinj
+    * https://github.com/ohac/sakuracoin-wallet
+
+マインクラフト用のプラグイン
+
+* [ここからダウンロード]してください。(2014/01/28 22:00バージョン)
+  * Sakuracoinish-1.0.jar (少しソースと違う部分があります)
+    * https://github.com/ohac/sakuracoinj
+    * https://github.com/ohac/Sakuracoinish
+  * Vault-1.2.30.jar (少しソースと違う部分があります)
+    * https://github.com/ohac/Vault
+    * Vaultを使う場合はChestShopなどと組み合わせて使用してください。
 
 ## さくらコインの入手(試験運用中)
 
@@ -166,7 +172,9 @@ Android用のクライアントソフト(準備中)
 このページは開発者のみ編集可能に設定しておりますので、ダウンロードのURLは他の人は改ざんできません。
 URLはohacのge.ttとDropboxアカウントを使用しておりますので、こちらも改ざんできませんが、念のためmd5sumを付けておきます。
 
-    7888f8ad9e6c1a76571ddd6de568555a *wallet-0.07.apk
+    fdcdd790c4cc3759413a088f83c77654 *Sakuracoinish-1.0.jar
+    5b0e60bb399d1d04f38ee264ea25a3c4 *Vault-1.2.30.jar
+    817505b1299e17c95398c6fae4bc5025 *wallet-0.07-20140125-20.apk
     e2eabc5c52e576430abb6b21466c2888 *sakuracoin-win32-setup-20140111-18.exe
     6f8aea2aeb0e537d3727f1135db380c4 *sakuracoin-qt-20140111-18.exe
     87c2912b3b07924d3514e632a762ab82 *sakuracoind-20140111-18.exe
