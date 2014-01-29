@@ -25,8 +25,6 @@ CoinWidgetCom.go({
 </script>
 </div>
 
-
-
 # ![sakuracoin64](images/sakuracoin64.png) Sakuracoin
 
 いつも「さくらコイン」にご協力いただき、ありがとうございます。
@@ -38,6 +36,8 @@ CoinWidgetCom.go({
 </li>
 {% endfor %}
 </ul>
+
+<div id="lineChart" style="width:800px; height:150px;"></div>
 
 ## さくらコインについて
 
@@ -88,6 +88,7 @@ Android用のクライアントソフト
   * Vault-1.2.30.jar (少しソースと違う部分があります)
     * https://github.com/ohac/Vault
     * Vaultを使う場合はChestShopなどと組み合わせて使用してください。
+  * 36.2.132.153でBukkitサーバを立ち上げています。お気軽にどうぞ。コインの入手も可能です。
 
 ## さくらコインの入手(試験運用中)
 
@@ -124,6 +125,7 @@ Android用のクライアントソフト
 
 * Algorithm: Scrypt
 * Premine: none
+  * プリマインはありません。人気がないため、少数の採掘者に分配されているだけです。採掘が停止するとトランザクションも停止してしまうため、止める訳にもいきません。偏りを減らすために大き目のGiveawayイベントを検討しています。
 * Block reward: 50 SKR
 * Block time: 1.5 minutes
 * Retarget: 2400 blocks
@@ -144,8 +146,6 @@ Android用のクライアントソフト
 
 * 例
   * Mac OSX用のクライアントソフト作成
-  * クライアントソフトの日本語化
-  * Webウォレットサービス
   * Block Explorer
 
 ## Funds
@@ -153,7 +153,7 @@ Android用のクライアントソフト
 なし(アイデア募集中)
 
 * 例
-  * 日本語ブログ記事1つにつき1.0SKR等
+  * 日本語ブログ記事1つにつき100.0SKR等
 
 ## Others
 
@@ -179,41 +179,10 @@ URLはohacのge.ttとDropboxアカウントを使用しておりますので、�
     6f8aea2aeb0e537d3727f1135db380c4 *sakuracoin-qt-20140111-18.exe
     87c2912b3b07924d3514e632a762ab82 *sakuracoind-20140111-18.exe
     3eb15c289a0cb0ac81e2dae252f8c944 *sakuracoin-20140111-18.tar.gz
-    032c949ec0364901e39078d35deedd06 *sakuracoin-20140104-13-win32-setup.exe
-    6b49339eae97a82811cede23d8ac9d53 *sakuracoin-20140103-16-win32-setup.exe
-    d5a101eb688d76f3c2c899286af1a269 *sakuracoin-20140103-13-win32-setup.exe
-    d419c050074d11ed356abf8d4fb19ccd *sakuracoin-20130103-11-win32-setup.exe
-    d7fe00bdbcee3fb1bc55a87fd179ddce *sakuracoin-ubuntu13.10-amd64-20140101.zip
-    75be690cf6f33494fec1de579f80f9b0 *sakuracoin-win32-20140102.zip
-    14959342ce64dea2d153524fd5df3ebd *sakuracoinishv2-20140125-18.zip
-    55a61d57f60c22677ed7a3dd5806e370 *sha1coin-win32-setup-20140111-18.exe
-    52623d350fa82e3cb3dee8215e07bfae *sha1coin-qt-20140111-18.exe
-    53595757fe563b8348f6f8b609758cfd *sha1coind-20140111-18.exe
-    a12774e919942921d6d1ff49252eafa3 *sha1coin-20140111-19.tar.gz
-    242f14656e82a47ae0fd29cae17f2b1d *sha1coin-20140104-16-win32-setup.exe
-    f1eb58a3c45c47d5407fd6cf5e3c4576 *sha1coin-20140105-13-win32-setup.exe
     4d31ebd42c0723c521d58160cfdb1848 *monacoin-win32-setup-20140119-10.exe
     5ee5b46213cef9224e96d9b79c2a3e99 *monacoin-qt-20140119-10.exe
     6f5c82b6ff5273fb656f085e780374f6 *monacoin-20140119-11.tar.gz
     b24bbf02009f5cf6716199e5ec55eb5a *monacoind-20140119-10.exe
-    7e28a15e51bbf2e630fa322a3d07a4b0 *monacoin-win32-setup-20140111-12.exe
-    a89cafe70dd57d6bb5b2e0ad6aac3b39 *monacoin-qt-20140111-12.exe
-    bb0a5d9c60e7f9e8e690d089f0c60863 *monacoind-20140111-12.exe
-    703879aba6b491368c318cb33ea655d1 *monacoin-20140111-12.tar.gz
-
-
-## 旧バージョンのダウンロード
-* [sakuracoin-20140104-13-win32-setup.exe]
-* [sakuracoin-20140103-16-win32-setup.exe]
-* [sakuracoin-20140103-13-win32-setup.exe]
-* [sakuracoin-20130103-11-win32-setup.exe]
-* [sakuracoin-win32-20140102.zip]
-* [sakuracoin-ubuntu13.10-amd64-20140101.zip]
-* [monacoin-win32-setup-20140111-12.exe] Windows用インストーラ版
-* [monacoin-qt-20140111-12.exe] Windows用スタンドアローン版
-* [monacoind-20140111-12.exe] Windows用コンソール版
-* [monacoin-20140111-12.tar.gz] Linux用
-* [monacoin-qt]
 
 ## 寄付
 
@@ -232,32 +201,9 @@ URLはohacのge.ttとDropboxアカウントを使用しておりますので、�
 [sakuracoind-20140111-18.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/sakuracoind-20140111-18.exe
 [sakuracoin-20140111-18.tar.gz]: http://ge.tt/64iiAkD1/v/0?c
 [sakuracoin-20140111-18.tar.gz-mirror]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140111-18.tar.gz
-[sha1coin-win32-setup-20140111-18.exe]: http://ge.tt/5Un3BkD1/v/0?c
-[sha1coin-win32-setup-20140111-18.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/sha1coin-win32-setup-20140111-18.exe
-[sha1coin-qt-20140111-18.exe]: http://ge.tt/31nu4lD1/v/5?c
-[sha1coin-qt-20140111-18.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/sha1coin-qt-20140111-18.exe
-[sha1coind-20140111-18.exe]: http://ge.tt/31nu4lD1/v/1?c
-[sha1coind-20140111-18.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/sha1coind-20140111-18.exe
-[sha1coin-20140111-19.tar.gz]: http://ge.tt/47PBBkD1/v/0?c
-[sha1coin-20140111-19.tar.gz-mirror]: https://dl.dropboxusercontent.com/u/5745602/sha1coin-20140111-19.tar.gz
-[monacoin-win32-setup-20140111-12.exe]: http://ge.tt/23AoxjD1
-[monacoin-win32-setup-20140111-12.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/monacoin-win32-setup-20140104-13.exe
-[monacoin-qt-20140111-12.exe]: http://ge.tt/31nu4lD1/v/4?c
-[monacoin-qt-20140111-12.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/monacoin-qt-20140104-13.exe
-[monacoind-20140111-12.exe]: http://ge.tt/31nu4lD1/v/0?c
-[monacoind-20140111-12.exe-mirror]: https://dl.dropboxusercontent.com/u/5745602/monacoind-20140104-13.exe
-[monacoin-20140111-12.tar.gz]: http://ge.tt/3AYy0kD1
-[monacoin-20140111-12.tar.gz-mirror]: https://dl.dropboxusercontent.com/u/5745602/monacoin-20140111-12.tar.gz
-[monacoin-qt]: https://dl.dropboxusercontent.com/u/5745602/monacoin-qt
 [したらば掲示板交換]: http://jbbs.shitaraba.net/bbs/read.cgi/internet/19552/1388817096/l50
 [したらば掲示板]: http://jbbs.shitaraba.net/internet/19552/
 [外部Wiki1]: http://www59.atwiki.jp/japancryptocurrency/pages/15.html
-[sakuracoin-20140104-13-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140104-13-win32-setup.exe
-[sakuracoin-20140103-16-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140103-16-win32-setup.exe
-[sakuracoin-20140103-13-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140103-13-win32-setup.exe
-[sakuracoin-20130103-11-win32-setup.exe]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20130103-11-win32-setup.exe
-[sakuracoin-win32-20140102.zip]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-win32-20140102.zip
-[sakuracoin-ubuntu13.10-amd64-20140101.zip]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-ubuntu13.10-amd64-20140101.zip
 [sakuracoin]: https://github.com/ohac/sakuracoin
 [ここからダウンロード]: http://ge.tt/24MStBE1?c
 [Sakura Pool]: http://sakurapool.dip.jp/

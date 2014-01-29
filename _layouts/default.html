@@ -12,8 +12,34 @@
       js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="js/jquery.jqplot.min.css" type="text/css" media="all">
+    <script type="text/javascript" src="js/jquery.jqplot.min.js"></script>
   </head>
   <body>
     {{ content }}
+    <script type="text/javascript">
+      var graphData = [
+      [0.025, 
+      0.025,
+      0.02545,
+      0.02394,
+      0.02394,
+      0.02394,
+      0.01542,
+      0.01542,
+      0.02010, 
+      0.02010, 
+      0.02197, 
+      0.03235, 
+      0.03235, 
+      0.03536, 
+      0.03536, 
+      0.04198, 
+      0.04198, 
+      0.04198]
+      ];
+      var plot = $.jqplot('lineChart', graphData, {title: '採掘難易度'});
+    </script>
   </body>
 </html>
