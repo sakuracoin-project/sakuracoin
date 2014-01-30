@@ -8,9 +8,9 @@ TYPE2PORT = {
   'bitcoin' => 8332,
   'namecoin' => 9332,
   'TagCoin' => 9624,
-  #'monacoin' => 9302,
   'sakuracoin' => 9302,
   'sha1coin' => 9512,
+  'monacoin' => 19402,
 }
 TARGETTYPE = 'sakuracoin'
 
