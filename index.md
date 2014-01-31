@@ -164,8 +164,8 @@ Android用のクライアントソフト
 ## その他のコイン
 
 * ![sha1coin64](images/sha1coin64.png) [Sha1coin]
-* Monacoin野良ビルド(非公式ビルド)
-  * [ここからダウンロード]してください。(2014/01/19 11:00バージョン)
+* Monacoin
+  * http://keystore00.github.io/ の方が新しいので配布をやめました。
 
 ## ダウンロードについて
 
@@ -179,10 +179,6 @@ URLはohacのge.ttとDropboxアカウントを使用しておりますので、�
     6f8aea2aeb0e537d3727f1135db380c4 *sakuracoin-qt-20140111-18.exe
     87c2912b3b07924d3514e632a762ab82 *sakuracoind-20140111-18.exe
     3eb15c289a0cb0ac81e2dae252f8c944 *sakuracoin-20140111-18.tar.gz
-    4d31ebd42c0723c521d58160cfdb1848 *monacoin-win32-setup-20140119-10.exe
-    5ee5b46213cef9224e96d9b79c2a3e99 *monacoin-qt-20140119-10.exe
-    6f5c82b6ff5273fb656f085e780374f6 *monacoin-20140119-11.tar.gz
-    b24bbf02009f5cf6716199e5ec55eb5a *monacoind-20140119-10.exe
 
 ## 寄付
 
