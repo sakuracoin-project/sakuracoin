@@ -157,6 +157,7 @@ Android用のクライアントソフト
 * [外部Wiki1]
 * [外部Wiki2]
 * chiraura http://localhost:22266/test/read.cgi/cryptocurrency/1391240429/2
+* [コイン寄付ボタン]
 
 ## その他のコイン
 
@@ -195,3 +196,4 @@ URLはohacのge.ttとDropboxアカウントを使用しておりますので、�
 [GitHubからダウンロード]: https://github.com/ohac/sakuracoin-wallet/releases/
 [Sakura Pool]: http://sakurapool.dip.jp/
 [Webウォレット]: http://coins.asiru.info/index2.html
+[コイン寄付ボタン]: http://bitcoinlove.lv9.co/
