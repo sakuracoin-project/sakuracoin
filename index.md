@@ -51,7 +51,7 @@ CoinWidgetCom.go({
 
 Windows用のクライアントソフト
 
-* [ここからダウンロード]してください。(2014/02/01 21:00バージョン)
+* [ここからダウンロード]してください。(2014/02/01 20:00バージョン)
   * sakuracoin-win32-setup-20140201-20.exe
   * sakuracoin-qt-20140201-20.exe
   * sakuracoind-20140201-20.exe
