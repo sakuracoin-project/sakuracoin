@@ -157,6 +157,8 @@ Android用のクライアントソフト
 * [Webウォレット] (テスト中)
 * [したらば掲示板]
 * [外部Wiki1]
+* [外部Wiki2]
+* chiraura http://localhost:22266/test/read.cgi/cryptocurrency/1391240429/2
 
 ## その他のコイン
 
@@ -196,7 +198,8 @@ URLはohacのge.ttとDropboxアカウントを使用しておりますので、�
 [sakuracoin-20140111-18.tar.gz-mirror]: https://dl.dropboxusercontent.com/u/5745602/sakuracoin-20140111-18.tar.gz
 [したらば掲示板交換]: http://jbbs.shitaraba.net/bbs/read.cgi/internet/19552/1388817096/l50
 [したらば掲示板]: http://jbbs.shitaraba.net/internet/19552/
-[外部Wiki1]: http://www59.atwiki.jp/japancryptocurrency/pages/15.html
+[外部Wiki1]: http://www59.atwiki.jp/sakuracoin/
+[外部Wiki2]: http://www59.atwiki.jp/japancryptocurrency/pages/15.html
 [sakuracoin]: https://github.com/ohac/sakuracoin
 [GitHubからダウンロード]: https://github.com/ohac/sakuracoin-wallet/releases/
 [Sakura Pool]: http://sakurapool.dip.jp/
