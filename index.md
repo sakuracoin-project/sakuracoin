@@ -74,10 +74,7 @@ Mac OSX用のクライアントソフト
 
 Android用のクライアントソフト
 
-* [ここからダウンロード]してください。(2014/01/25 20:00バージョン)
-  * wallet-0.07-20140125-20.apk
-    * https://github.com/ohac/sakuracoinj
-    * https://github.com/ohac/sakuracoin-wallet
+* [GitHubからダウンロード]してください。(2014/02/01 14:00バージョン)
 
 マインクラフト用のプラグイン
 
@@ -201,6 +198,6 @@ URLはohacのge.ttとDropboxアカウントを使用しておりますので、�
 [したらば掲示板]: http://jbbs.shitaraba.net/internet/19552/
 [外部Wiki1]: http://www59.atwiki.jp/japancryptocurrency/pages/15.html
 [sakuracoin]: https://github.com/ohac/sakuracoin
-[ここからダウンロード]: http://ge.tt/24MStBE1?c
+[GitHubからダウンロード]: https://github.com/ohac/sakuracoin-wallet/releases/
 [Sakura Pool]: http://sakurapool.dip.jp/
 [Webウォレット]: http://coins.asiru.info/index2.html
