@@ -815,7 +815,7 @@ Address: %4
     <message>
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation type="unfinished"></translation>
+        <translation>取引1kBあたりの手数料。取引を優先的に処理したい場合に指定してください。ほとんどの取引は1kBに収まります。</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -825,12 +825,12 @@ Address: %4
     <message>
         <location line="+31"/>
         <source>Automatically start Sakuracoin after logging in to the system.</source>
-        <translation type="unfinished"></translation>
+        <translation>立ち上げ時にさくらコインを自動的に実行します。</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start Sakuracoin on system login</source>
-        <translation type="unfinished"></translation>
+        <translation>さくらコインを自動的に実行(&amp;S)</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -1324,7 +1324,7 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 BTC</source>
+        <source>123.456 SKR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1871,7 +1871,7 @@ Address: %4
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Helbidea</translation>
+        <translation>アドレス</translation>
     </message>
     <message>
         <location line="+0"/>
