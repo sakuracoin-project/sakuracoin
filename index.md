@@ -170,12 +170,12 @@ Android用のクライアントソフト
 このページは開発者のみ編集可能に設定しておりますので、ダウンロードのURLは他の人は改ざんできません。
 URLはohacのge.ttとDropboxアカウントを使用しておりますので、こちらも改ざんできませんが、念のためmd5sumを付けておきます。
 
+    60b88b56d346bc9adf302a82462a0247 *sakuracoin-20140202-10.tar.gz
+    04ae4dabb36598d024aa13acd54923d7 *sakuracoind-20140202-10.exe
+    59d96c12188da9bed28b3333101abfd9 *sakuracoin-qt-20140202-10.exe
+    cb0cfcc61d741ab521fcad71940cab56 *sakuracoin-win32-setup-20140202-10.exe
     fdcdd790c4cc3759413a088f83c77654 *Sakuracoinish-1.0.jar
     5b0e60bb399d1d04f38ee264ea25a3c4 *Vault-1.2.30.jar
-    3fd5c4669a6ba14a36c68dd142a94b30 *sakuracoin-20140201-21.tar.gz
-    4d4b75f88212b7f1d3b1b4be93b37704 *sakuracoind-20140201-20.exe
-    eaa807d3bcf723703f8505371c5c63fa *sakuracoin-qt-20140201-20.exe
-    11d8e987b21118804c921484b019ee3d *sakuracoin-win32-setup-20140201-20.exe
     a8e04376804f3d4ea00133194b3898a2 *wallet-0.07-20140201-14.apk
 
 ## 寄付
@@ -187,7 +187,7 @@ URLはohacのge.ttとDropboxアカウントを使用しておりますので、�
 [Donate-MONA]: monacoin:MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY
 [Bitmessage]: https://bitmessage.ch/
 [Sha1coin]: http://ohac.github.io/sha1coin/
-[ここからダウンロード]: http://ge.tt/8AI28VH1?c
+[ここからダウンロード]: https://github.com/ohac/sakuracoin/releases
 [したらば掲示板交換]: http://jbbs.shitaraba.net/bbs/read.cgi/internet/19552/1388817096/l50
 [したらば掲示板]: http://jbbs.shitaraba.net/internet/19552/
 [外部Wiki1]: http://www59.atwiki.jp/sakuracoin/
