@@ -80,12 +80,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+11"/>
         <source>Sign a message to prove you own a Sakuracoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>Sakuracoinアドレスにメッセージを署名して、アドレスの持ち主があなたであることを証明</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>メッセージへの署名(&amp;M)</translation>
+        <translation>メッセージの署名(&amp;M)</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -95,7 +95,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"></translation>
+        <translation>現在のタブの情報をファイルにエクスポート</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -105,7 +105,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified Sakuracoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>メッセージが特定のアドレスで署名されていることを確認</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -173,7 +173,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+36"/>
         <source>(no label)</source>
-        <translation>（ラベル無し）</translation>
+        <translation>（ラベルなし）</translation>
     </message>
 </context>
 <context>
@@ -246,23 +246,23 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation type="unfinished"></translation>
+        <translation>注意：ウォレットを暗号化してパスフレーズを忘れると&lt;b&gt;Sakuracoinをすべて失う&lt;/b&gt;ことになります。</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation type="unfinished"></translation>
+        <translation>本当にウォレットを暗号化しますか？</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation type="unfinished"></translation>
+        <translation>重要: これ以前のすべてのバックアップを新しく暗号化したもので置き換えてください。セキュリティ上の理由により、以前の暗号化されていないバックアップは無効になります。</translation>
     </message>
     <message>
         <location line="+100"/>
         <location line="+24"/>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation type="unfinished"></translation>
+        <translation>注意: Caps Locが有効になっています！</translation>
     </message>
     <message>
         <location line="-130"/>
@@ -273,7 +273,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-56"/>
         <source>Sakuracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sakuracoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>ウォレットの暗号化を完了するためにSakuracoinを終了します。ウォレットの暗号化により、あなたのウォレットが完全に守られているわけではありません。マルウェア等による盗難に注意してください。</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -322,7 +322,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation>メッセージへの署名(&amp;M)...</translation>
+        <translation>メッセージの署名(&amp;M)...</translation>
     </message>
     <message>
         <location line="+280"/>
@@ -412,7 +412,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>Reindexing blocks on disk...</source>
-        <translation type="unfinished"></translation>
+        <translation>ディスク上のブロックを再構築</translation>
     </message>
     <message>
         <location line="-347"/>
@@ -442,7 +442,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation>デバッグと通知コンソールを開く</translation>
+        <translation>デバッグ、診断コンソールを起動</translation>
     </message>
     <message>
         <location line="-4"/>
@@ -493,17 +493,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>プライベートキーを暗号化</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Sign messages with your Sakuracoin addresses to prove you own them</source>
-        <translation type="unfinished"></translation>
+        <translation>Sakuracoinアドレスにメッセージを署名して、アドレスの持ち主があなたであることを証明</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Sakuracoin addresses</source>
-        <translation type="unfinished"></translation>
+        <translation>メッセージが特定のアドレスで署名されていることを確認</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -546,7 +546,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+22"/>
         <source>No block source available...</source>
-        <translation>ブロックが見つかりません...</translation>
+        <translation>ブロックソースが利用できません...</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -587,12 +587,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished"></translation>
+        <translation>最後に受信したブロックは%1前に生成されました。</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>これ以降の取引はまだ可視化されません。</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -622,7 +622,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+31"/>
         <source>Catching up...</source>
-        <translation>キャッチアップ...</translation>
+        <translation>同期中...</translation>
     </message>
     <message>
         <location line="+113"/>
@@ -656,13 +656,13 @@ Address: %4
         <location line="+33"/>
         <location line="+23"/>
         <source>URI handling</source>
-        <translation type="unfinished"></translation>
+        <translation>URIの処理</translation>
     </message>
     <message>
         <location line="-23"/>
         <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid Sakuracoin address or malformed URI parameters.</source>
-        <translation type="unfinished"></translation>
+        <translation>URIをパースできません！Sakuracoinアドレスなどのパラメータが無効です。</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -677,7 +677,7 @@ Address: %4
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Sakuracoin can no longer continue safely and will quit.</source>
-        <translation type="unfinished"></translation>
+        <translation>致命的なエラー。さくらコインを終了します。</translation>
     </message>
 </context>
 <context>
@@ -713,27 +713,27 @@ Address: %4
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>アドレス帳の入った事の関係のアドレスです。これは遅れるのアドレスのためだけに編集出来ます。</translation>
+        <translation>ラベルに関連付けられているアドレス。送金用のアドレスのみ変更可能です。</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation>新しいの受け入れのアドレス</translation>
+        <translation>新しい受信用アドレス</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>New sending address</source>
-        <translation>新しいの送るのアドレス</translation>
+        <translation>新しい送金用アドレス</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>受け入れのアドレスを編集する</translation>
+        <translation>受信用アドレスを編集する</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>送るのアドレスを編集する</translation>
+        <translation>送金用アドレスを編集する</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1046,7 +1046,7 @@ Address: %4
     <message>
         <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>まだ成熟していない採掘された残高</translation>
+        <translation>発掘されたが、まだ成熟していない量</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -1061,7 +1061,7 @@ Address: %4
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation type="unfinished"></translation>
+        <translation>未確認の取引で残高に計上されていない量</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+116"/>
@@ -1128,7 +1128,7 @@ Address: %4
     <message>
         <location line="+25"/>
         <source>Save QR Code</source>
-        <translation type="unfinished"></translation>
+        <translation>QRコードの保存</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1743,7 +1743,7 @@ Address: %4
         <location line="+17"/>
         <location line="+30"/>
         <source>Credit</source>
-        <translation type="unfinished"></translation>
+        <translation>入金額</translation>
     </message>
     <message numerus="yes">
         <location line="-102"/>
@@ -1763,7 +1763,7 @@ Address: %4
         <location line="+15"/>
         <location line="+30"/>
         <source>Debit</source>
-        <translation type="unfinished"></translation>
+        <translation>送金額</translation>
     </message>
     <message>
         <location line="-39"/>
@@ -1950,7 +1950,7 @@ Address: %4
     <message>
         <location line="+38"/>
         <source>(n/a)</source>
-        <translation type="unfinished"></translation>
+        <translation>自分への送金</translation>
     </message>
     <message>
         <location line="+199"/>
@@ -2185,7 +2185,7 @@ Address: %4
     <message>
         <location line="+0"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation type="unfinished"></translation>
+        <translation>ウォレットのデータを別の場所に保存する際に、エラーが発生しました。</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2195,7 +2195,7 @@ Address: %4
     <message>
         <location line="+0"/>
         <source>The wallet data was successfully saved to the new location.</source>
-        <translation type="unfinished"></translation>
+        <translation>ウォレットは正常に新しい場所に保存されました。</translation>
     </message>
 </context>
 <context>
