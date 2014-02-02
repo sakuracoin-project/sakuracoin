@@ -76,7 +76,7 @@ Android用のクライアントソフト
 
 マインクラフト用のプラグイン
 
-* [ここからダウンロード]してください。(2014/01/28 22:00バージョン)
+* [ge.ttからダウンロード]してください。(2014/01/28 22:00バージョン)
   * Sakuracoinish-1.0.jar (少しソースと違う部分があります)
     * https://github.com/ohac/sakuracoinj
     * https://github.com/ohac/Sakuracoinish
@@ -193,6 +193,7 @@ Android用のクライアントソフト
 [外部Wiki2]: http://www59.atwiki.jp/japancryptocurrency/pages/15.html
 [sakuracoin]: https://github.com/ohac/sakuracoin
 [GitHubからダウンロード]: https://github.com/ohac/sakuracoin-wallet/releases/
+[ge.ttからダウンロード]: http://ge.tt/8AI28VH1?c
 [Sakura Pool]: http://sakurapool.dip.jp/
 [Webウォレット]: http://coins.asiru.info/index2.html
 [コイン寄付ボタン]: http://bitcoinlove.lv9.co/
