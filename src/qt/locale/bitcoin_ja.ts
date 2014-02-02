@@ -332,7 +332,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-349"/>
         <source>&amp;Overview</source>
-        <translation>概要(&amp;O)</translation>
+        <translation>概要</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -342,7 +342,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation>取引(&amp;T)</translation>
+        <translation>取引履歴</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -463,17 +463,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+101"/>
         <source>&amp;Send</source>
-        <translation>送る(&amp;S)</translation>
+        <translation>送金</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation>受け取る(&amp;R)</translation>
+        <translation>受取用アドレス帳</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>&amp;Addresses</source>
-        <translation>アドレス(&amp;A)</translation>
+        <translation>送金用アドレス帳</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -607,7 +607,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>Information</source>
-        <translation>情報</translation>
+        <translation>インフォメーション</translation>
     </message>
     <message>
         <location line="+70"/>
@@ -646,7 +646,7 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>日付: %1
+        <translation>日時: %1
 残高: %2
 タイプ: %3
 アドレス: %4
@@ -955,7 +955,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation type="unfinished"></translation>
+        <translation>アドレスを取引履歴に表示する(&amp;D)</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1700,7 +1700,7 @@ Address: %4
     <message>
         <location line="+4"/>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation>日時</translation>
     </message>
     <message>
         <location line="+7"/>
