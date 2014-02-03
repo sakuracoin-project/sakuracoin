@@ -26,7 +26,7 @@ Once you've got the right hardware and software:
     wget -O miniupnpc-1.6.tar.gz 'http://miniupnp.tuxfamily.org/files/download.php?file=miniupnpc-1.6.tar.gz'
     wget 'http://fukuchi.org/works/qrencode/qrencode-3.2.0.tar.bz2'
     # Inputs for Win32: (Linux has packages for these)
-    wget 'http://downloads.sourceforge.net/project/boost/boost/1.54.0/boost_1_54_0.tar.bz2'
+    wget 'http://downloads.sourceforge.net/project/boost/boost/1.55.0/boost_1_55_0.tar.bz2'
     wget 'https://svn.boost.org/trac/boost/raw-attachment/ticket/7262/boost-mingw.patch'
     mv boost-mingw.patch boost-mingw-gas-cross-compile-2013-03-03.patch
     wget 'http://www.openssl.org/source/openssl-1.0.1c.tar.gz'
@@ -51,7 +51,7 @@ Once you've got the right hardware and software:
 
     # Build Win32 dependencies: (only needs to be done once, or when dependency versions change)
     ./bin/gbuild --commit sakuracoin=HEAD ../sakuracoin/contrib/gitian-descriptors/boost-win32.yml
-    mv build/out/inputs/boost-win32-1.54.0-gitian-r6.zip inputs/
+    mv build/out/boost-win32-1.55.0-gitian-r6.zip inputs/
     ./bin/gbuild --commit sakuracoin=HEAD ../sakuracoin/contrib/gitian-descriptors/deps-win32.yml
     mv build/out/bitcoin-deps-win32-gitian-r9.zip inputs/
     ./bin/gbuild --commit sakuracoin=HEAD ../sakuracoin/contrib/gitian-descriptors/qt-win32.yml
