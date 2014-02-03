@@ -81,6 +81,11 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
     walletFrame = new WalletFrame(this);
     setCentralWidget(walletFrame);
 
+    // Set font size
+    QFont font = QApplication::font();
+    font.setPointSize(10);
+    QApplication::setFont(font);
+
     // Accept D&D of URIs
     setAcceptDrops(true);
 
