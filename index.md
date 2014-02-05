@@ -51,15 +51,15 @@ CoinWidgetCom.go({
 
 Windows用のクライアントソフト
 
-* [ここからダウンロード]してください。(2014/02/02 10:00バージョン)
-  * sakuracoin-win32-setup-20140202-10.exe
-  * sakuracoin-qt-20140202-10.exe
-  * sakuracoind-20140202-10.exe
+* [ここからダウンロード]してください。(2014/02/04 22:00バージョン)
+  * sakuracoin-win32-setup-20140204-22.exe
+  * sakuracoin-qt-20140204-22.exe
+  * sakuracoind-20140204-22.exe
 
 Linux用のクライアントソフト
 
-* [ここからダウンロード]してください。(2014/02/02 10:00バージョン)
-  * sakuracoin-20140202-10.tar.gz
+* [ここからダウンロード]してください。(2014/02/04 22:00バージョン)
+  * sakuracoin-20140204-22.tar.gz
 
 Mac OSX用のクライアントソフト
 
@@ -169,10 +169,10 @@ Android用のクライアントソフト
 
 念のためmd5sumを付けておきます。ミラー等からダウンロードされた場合は特にご注意ください。
 
-    60b88b56d346bc9adf302a82462a0247 *sakuracoin-20140202-10.tar.gz
-    04ae4dabb36598d024aa13acd54923d7 *sakuracoind-20140202-10.exe
-    59d96c12188da9bed28b3333101abfd9 *sakuracoin-qt-20140202-10.exe
-    cb0cfcc61d741ab521fcad71940cab56 *sakuracoin-win32-setup-20140202-10.exe
+    53c1cfa636a79c1994815ed3a0b4efa8 *sakuracoin-20140204-22.tar.gz
+    621c05a3fddeeea61156dd152cf07c37 *sakuracoind-20140204-22.exe
+    8362c27a0513b7cc308549c20a166d13 *sakuracoin-qt-20140204-22.exe
+    4e1197039492ea5d84b573c505690312 *sakuracoin-win32-setup-20140204-22.exe
     fdcdd790c4cc3759413a088f83c77654 *Sakuracoinish-1.0.jar
     5b0e60bb399d1d04f38ee264ea25a3c4 *Vault-1.2.30.jar
     a8e04376804f3d4ea00133194b3898a2 *wallet-0.07-20140201-14.apk
