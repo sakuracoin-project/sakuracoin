@@ -20,7 +20,8 @@
     {{ content }}
     <script type="text/javascript">
       var graphData = [
-      [0.025, 
+      [
+      0.025, 
       0.025,
       0.02545,
       0.02394,
@@ -47,9 +48,31 @@
       0.01405,
       0.00896,
       0.00896,
-      ]
+      ],
+      [
+      [18, 269.00000],
+      [19, 288.00000],
+      [20, 379.00000],
+      [21, 365.59900],
+      [22, 275.28500],
+      [23, 607.35500],
+      [24, 387.74000],
+      [25, 278.02300],
+      [26, 268.76900],
+      [27, 348.27400],
+      ],
       ];
-      var plot = $.jqplot('lineChart', graphData, {title: '採掘難易度'});
+      var plot = $.jqplot('lineChart', graphData, {
+        title: '採掘難易度',
+        axes: {
+          yaxis: {},
+          y2axis: {},
+        },
+        series: [
+          {yaxis: 'yaxis'},
+          {yaxis: 'y2axis'},
+        ],
+      });
     </script>
   </body>
 </html>
