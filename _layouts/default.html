@@ -122,8 +122,8 @@
       var plot = $.jqplot('lineChart', graphData, {
         title: '採掘難易度',
         axes: {
-          yaxis: {},
-          y2axis: {},
+          yaxis: {min:0, max: 0.05},
+          y2axis: {min: 0, max: 2500},
         },
         series: [
           {yaxis: 'yaxis'},
