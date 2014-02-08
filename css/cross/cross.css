@@ -17,7 +17,7 @@ Comment: 十字を基調としたシンプルなテーマ
 ページ全体の基本的な設定。背景色や文字色など
 */
 body {
-	background-color: #F1EDEA;
+	background-color: #FFF0ED;
 	background-image: url(cross_back.png);
 	background-repeat: repeat-y;
 	padding-left: 100px;
@@ -29,7 +29,7 @@ a:link{
 }
 
 a:visited{
-	color: #633;
+	color: #933;
 }
 
 a:hover{
