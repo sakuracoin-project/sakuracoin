@@ -50,6 +50,9 @@ day[:height] = height
 #p [t, bits2diff(bits), transactionc, height] if transactionc > 0
         height += 1
 #break if height > 150
+File.open('blkhd.tmp', 'w'){|fd|fd.write(blockheader)}
+x = `./scryptsum < blkhd.tmp`
+p x.unpack("h*")[0]
       end
     end
     days.each do |day, val|
