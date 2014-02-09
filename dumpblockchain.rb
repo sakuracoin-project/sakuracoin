@@ -1,4 +1,5 @@
 #!/usr/bin/ruby
+require 'stringio'
 
 def readvarint(fd)
   head = fd.read(1)
@@ -39,20 +40,43 @@ end
         t = Time.at(t)
         size, transactionc = readvarint(fd)
         transactions = fd.read(blocksize - 80 - size)
-days[t.strftime('%Y-%m-%d')] ||= {}
-day = days[t.strftime('%Y-%m-%d')]
-day[:diff] = bits2diff(bits)
-day[:transactionc] ||= 0
-day[:transactionc] += transactionc
-day[:blocks] ||= 0
-day[:blocks] += 1
-day[:height] = height
+        days[t.strftime('%Y-%m-%d')] ||= {}
+        day = days[t.strftime('%Y-%m-%d')]
+        day[:diff] = bits2diff(bits)
+        day[:transactionc] ||= 0
+        day[:transactionc] += transactionc
+        day[:blocks] ||= 0
+        day[:blocks] += 1
+        day[:height] = height
 #p [t, bits2diff(bits), transactionc, height] if transactionc > 0
         height += 1
-#break if height > 150
-File.open('blkhd.tmp', 'w'){|fd|fd.write(blockheader)}
-x = `./scryptsum < blkhd.tmp`
-p x.unpack("h*")[0]
+break if height > 150
+        File.open('blkhd.tmp', 'w'){|fd|fd.write(blockheader)}
+        hash = `./scryptsum < blkhd.tmp`.unpack("h*")[0]
+puts hash
+
+        sio = StringIO.new(transactions)
+        txv = sio.read(4).unpack('V')[0]
+        _, txic = readvarint(sio)
+p txic
+        txic.times do |txi|
+          txia = sio.read(32).unpack('h*')[0]
+          txib = sio.read(4).unpack('h*')[0]
+          _, txic = readvarint(sio)
+          txid = sio.read(txic)
+          txie = sio.read(4)
+p [txia, txib, txic, txid, txie]
+        end
+        _, txoc = readvarint(sio)
+p txoc
+        txoc.times do |txo|
+          txoa = sio.read(8).unpack('h*')[0]
+          _, txob = readvarint(sio)
+          txoc = sio.read(txob)
+p [txoa, txob, txoc, txoc.size]
+        end
+puts sio.read(4).unpack('h*')[0]
+puts
       end
     end
     days.each do |day, val|
