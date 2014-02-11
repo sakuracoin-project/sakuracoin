@@ -1,5 +1,6 @@
 #!/usr/bin/ruby
 require 'stringio'
+require 'digest/sha2'
 
 def readvarint(fd)
   head = fd.read(1)
@@ -23,6 +24,33 @@ def bits2diff(bits)
   scaland = Math.log(256)
   Math.exp(max_body - Math.log(bits & 0x00ffffff) +
       scaland * (0x1d - ((bits & 0xff000000) >> 24)))
+end
+
+def decode_script(s)
+  u = s.unpack('C*')
+  i = 0
+  loop do
+    op = u[i]
+    break unless op
+    i += 1
+    case op
+    when 1..75
+      p [:stack, op]
+puts 'stack: ' + s[i, op].unpack('H*')[0]
+      i += op
+    when 118
+      d = u[i]
+      p [:hash160, d]
+      i += 1
+    when 136
+      p :equalverify
+    when 172
+      p :checksig
+    else
+      p [:unknown, op]
+exit
+    end
+  end
 end
 
 ['sakuracoin', 'sha1coin'].each do |type|
@@ -50,32 +78,39 @@ end
         day[:height] = height
 #p [t, bits2diff(bits), transactionc, height] if transactionc > 0
         height += 1
-break if height > 150
+#break if height > 4
         File.open('blkhd.tmp', 'w'){|fd|fd.write(blockheader)}
-        hash = `./scryptsum < blkhd.tmp`.unpack("h*")[0]
-puts hash
+        hash = `./scryptsum < blkhd.tmp`.unpack("H*")[0]
+#puts hash
 
         sio = StringIO.new(transactions)
         txv = sio.read(4).unpack('V')[0]
         _, txic = readvarint(sio)
-p txic
+#offset = 4 + _
         txic.times do |txi|
-          txia = sio.read(32).unpack('h*')[0]
-          txib = sio.read(4).unpack('h*')[0]
+          txia = sio.read(32).unpack('H*')[0]
+          txib = sio.read(4).unpack('H*')[0]
           _, txic = readvarint(sio)
           txid = sio.read(txic)
           txie = sio.read(4)
-p [txia, txib, txic, txid, txie]
+#txsize = 32 + 4 + _ + txic + 4
+#puts 'tx: ' + transactions[offset, txsize].unpack('H*')[0]
+#puts 'txid: ' + Digest::SHA256.digest(transactions[offset, txsize]).unpack('H*')[0]
+#offset += txsize
+puts txi == 0 ? 'CoinBase' : 'Input Script'
+p [txia, txib, txid, txie]
+          decode_script(txid) if txi != 0
         end
         _, txoc = readvarint(sio)
-p txoc
+puts 'Output Scripts'
         txoc.times do |txo|
-          txoa = sio.read(8).unpack('h*')[0]
+          txoa = sio.read(8).unpack('Q')[0]
           _, txob = readvarint(sio)
           txoc = sio.read(txob)
-p [txoa, txob, txoc, txoc.size]
+p [txoa, txoc]
+          decode_script(txoc)
         end
-puts sio.read(4).unpack('h*')[0]
+puts sio.read(4).unpack('H*')[0]
 puts
       end
     end
