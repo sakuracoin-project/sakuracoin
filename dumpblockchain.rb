@@ -79,6 +79,7 @@ end
 #p [t, bits2diff(bits), transactionc, height] if transactionc > 0
         height += 1
 #break if height > 4
+=begin
         File.open('blkhd.tmp', 'w'){|fd|fd.write(blockheader)}
         hash = `./scryptsum < blkhd.tmp`.unpack("H*")[0]
 #puts hash
@@ -112,6 +113,7 @@ p [txoa, txoc]
         end
 puts sio.read(4).unpack('H*')[0]
 puts
+=end
       end
     end
     days.each do |day, val|
