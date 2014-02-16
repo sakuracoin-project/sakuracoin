@@ -75,6 +75,8 @@
   0.055353,
   0.055353,
   0.091920,
+  0.144266,
+  0.144266,
       ],
       [
 7537.320,
@@ -130,13 +132,15 @@
 2208.061,
 5296.835,
 4031.098,
+ 6785.511,
+13367.680,
       ],
       ];
       var plot = $.jqplot('lineChart', graphData, {
         axes: {
           xaxis: {min:1, max: 60, tickInterval: 7},
-          yaxis: {min:0, max: 0.10},
-          y2axis: {min: 0, max: 8000},
+          yaxis: {min:0, max: 0.15},
+          y2axis: {min: 0, max: 15000},
         },
         series: [
           {yaxis: 'yaxis', label: '採掘難易度'},
