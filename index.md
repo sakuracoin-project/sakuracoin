@@ -118,7 +118,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 
 ## ブロック情報(Block explorer)
 
-なし
+* [Abe]
 
 ## Others
 
@@ -128,6 +128,9 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 * [外部Wiki2]
 * chiraura http://localhost:22266/test/read.cgi/cryptocurrency/1391240429/2
 * [コイン寄付ボタン]
+* [暗号通貨寄付ウィジェット]
+* [SkrcShop]
+* [TANUO PRO]
 
 ## その他のコイン
 
@@ -169,3 +172,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 [Sakura Pool]: http://sakurapool.dip.jp/
 [Webウォレット]: http://coins.asiru.info/index2.html
 [コイン寄付ボタン]: http://bitcoinlove.lv9.co/
+[Abe]: http://abe.sighash.info/
+[SkrcShop]: http://skrcshop.blog.fc2.com/
+[TANUO PRO]: http://tanuo6.wix.com/tanuotrade
+[暗号通貨寄付ウィジェット]: http://coindonationwidget.com/jp/
