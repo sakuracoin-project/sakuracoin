@@ -181,6 +181,11 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
     , lbl_amount: "SHA"
   });
 </script>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 [Bitmessage]: https://bitmessage.ch/
 [Sha1coin]: http://ohac.github.io/sha1coin/
