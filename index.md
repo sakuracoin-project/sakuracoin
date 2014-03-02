@@ -7,22 +7,6 @@ title: Sakuracoin
 <a href="https://twitter.com/share" class="twitter-share-button" data-via="ohac">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 <div class="fb-like" data-href="http://ohac.github.io/sakuracoin" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-<script src="http://widget.monash.pw/coin.js"></script>
-&nbsp;
-<script>
-CoinWidgetCom.go({
-	wallet_address: "MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY"
-	, currency: "monacoin"
-	, counter: "count"
-	, alignment: "bl"
-	, qrcode: true
-	, auto_show: false
-	, lbl_button: "寄付する"
-	, lbl_address: "このアドレスにMonacoinを寄付する:"
-	, lbl_count: "回の寄付"
-	, lbl_amount: "MONA"
-	});
-</script>
 </div>
 
 # ![sakuracoin64](images/sakuracoin64.png) Sakuracoin
@@ -154,9 +138,20 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 
 ## 寄付
 
-[Donate-SKR], [Donate-SHA]
-
-<script src="http://coindonationwidget.com/jp/coin.js"></script>
+<script>
+  CoinWidgetCom.go({
+	  wallet_address: "MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY"
+    , currency: "monacoin"
+    , counter: "count"
+    , qrcode: true
+    , auto_show: false
+    , decimals: 4
+    , lbl_button: "寄付する"
+    , lbl_address: "以下のアドレスに寄付する:"
+    , lbl_count: "回"
+    , lbl_amount: "MONA"
+  });
+</script>
 <script>
   CoinWidgetCom.go({
     wallet_address: "MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd"
@@ -186,9 +181,6 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
   });
 </script>
 
-[Donate-SKR]: sakuracoin:MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd
-[Donate-SHA]: sha1coin:SQqr32xpK6hkmDyJRvPLaLFzqzfjq1Dr6f
-[Donate-MONA]: monacoin:MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY
 [Bitmessage]: https://bitmessage.ch/
 [Sha1coin]: http://ohac.github.io/sha1coin/
 [ここからダウンロード]: https://github.com/ohac/sakuracoin/releases
