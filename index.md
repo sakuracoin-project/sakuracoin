@@ -114,7 +114,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 ## 採掘所(Pools)
 
 * [Sakura Pool]
-  * ブロック発見アカウントが25を超えました。おめでとうございます。
+* [SakuraCoin SKR mining pool](http://skr.crypto-hamsters.com/)
 
 ## ブロック情報(Block explorer)
 
@@ -154,7 +154,37 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 
 ## 寄付
 
-[Donate-SKR], [Donate-SHA], [Donate-MONA]
+[Donate-SKR], [Donate-SHA]
+
+<script src="http://coindonationwidget.com/jp/coin.js"></script>
+<script>
+  CoinWidgetCom.go({
+    wallet_address: "MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd"
+    , currency: "sakuracoin"
+    , counter: "count"
+    , qrcode: true
+    , auto_show: false
+    , decimals: 4
+    , lbl_button: "寄付する"
+    , lbl_address: "以下のアドレスに寄付する:"
+    , lbl_count: "回"
+    , lbl_amount: "SKR"
+  });
+</script>
+<script>
+  CoinWidgetCom.go({
+    wallet_address: "SQqr32xpK6hkmDyJRvPLaLFzqzfjq1Dr6f"
+    , currency: "sha1coin"
+    , counter: "count"
+    , qrcode: true
+    , auto_show: false
+    , decimals: 4
+    , lbl_button: "寄付する"
+    , lbl_address: "以下のアドレスに寄付する:"
+    , lbl_count: "回"
+    , lbl_amount: "SHA"
+  });
+</script>
 
 [Donate-SKR]: sakuracoin:MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd
 [Donate-SHA]: sha1coin:SQqr32xpK6hkmDyJRvPLaLFzqzfjq1Dr6f
