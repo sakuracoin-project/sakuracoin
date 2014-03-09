@@ -187,8 +187,8 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 [ここからダウンロード]: https://github.com/ohac/sakuracoin/releases
 [したらば掲示板交換]: http://jbbs.shitaraba.net/bbs/read.cgi/internet/19552/1388817096/l50
 [したらば掲示板]: http://jbbs.shitaraba.net/internet/19552/
-[外部Wiki1]: http://www59.atwiki.jp/sakuracoin/
-[外部Wiki2]: http://www59.atwiki.jp/japancryptocurrency/pages/15.html
+#[外部Wiki1]: http://www59.atwiki.jp/sakuracoin/
+#[外部Wiki2]: http://www59.atwiki.jp/japancryptocurrency/pages/15.html
 [sakuracoin]: https://github.com/ohac/sakuracoin
 [GitHubからダウンロード]: https://github.com/ohac/sakuracoin-wallet/releases/
 [ge.ttからダウンロード]: http://ge.tt/8AI28VH1?c
