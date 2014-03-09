@@ -13,14 +13,6 @@ title: Sakuracoin
 
 いつも「さくらコイン」にご協力いただき、ありがとうございます。
 
-<ul>
-{% for post in site.posts limit:3 %}
-<li>
-<a href="/sakuracoin{{post.url}}">{{ post.date | date_to_long_string }} : {{ post.title }}</a>
-</li>
-{% endfor %}
-</ul>
-
 <div id="lineChart" style="width:800px; height:150px;"></div>
 
 (難易度切り替わり時点のハッシュレートの計算がおかしいですが、ご了承ください。)
@@ -106,6 +98,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 
 ## Others
 
+* [Twitterウォレット]
 * [Webウォレット] (テスト中)
 * [したらば掲示板]
 * [外部Wiki1]
@@ -186,6 +179,8 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 <br>
 <br>
 <br>
+<br>
+<br>
 
 [Bitmessage]: https://bitmessage.ch/
 [Sha1coin]: http://ohac.github.io/sha1coin/
@@ -198,6 +193,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 [GitHubからダウンロード]: https://github.com/ohac/sakuracoin-wallet/releases/
 [ge.ttからダウンロード]: http://ge.tt/8AI28VH1?c
 [Sakura Pool]: http://sakurapool.dip.jp/
+[Twitterウォレット]: http://www.sighash.info/
 [Webウォレット]: http://coins.asiru.info/index2.html
 [コイン寄付ボタン]: http://bitcoinlove.lv9.co/
 [Abe]: http://abe.sighash.info/
