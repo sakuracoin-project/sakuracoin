@@ -1250,7 +1250,7 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
 {
     int DiffMode = 1;
     if (fTestNet) {
-        if (pindexLast->nHeight+1 >= 100) { DiffMode = 2; }
+        if (pindexLast->nHeight+1 >= 0) { DiffMode = 2; }
     }
     else {
         if (pindexLast->nHeight+1 >= nSwitchKGWblock) { DiffMode = 1; } // TODO
