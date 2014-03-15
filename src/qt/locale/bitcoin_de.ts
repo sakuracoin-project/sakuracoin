@@ -1406,8 +1406,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Die Zahlungsadresse der Überweisung (z.B. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to (e.g. MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</source>
+        <translation>Die Zahlungsadresse der Überweisung (z.B. MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1447,8 +1447,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Sakuracoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sakuracoin-Adresse eingeben (z.B. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Sakuracoin address (e.g. MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</source>
+        <translation>Sakuracoin-Adresse eingeben (z.B. MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</translation>
     </message>
 </context>
 <context>
@@ -1470,8 +1470,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Die Adresse mit der die Nachricht signiert wird (z.B. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</source>
+        <translation>Die Adresse mit der die Nachricht signiert wird (z.B. MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1543,8 +1543,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Die Adresse mit der die Nachricht signiert wurde (z.B. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</source>
+        <translation>Die Adresse mit der die Nachricht signiert wurde (z.B. MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1564,8 +1564,8 @@ Adresse: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Sakuracoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sakuracoin-Adresse eingeben (z.B. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Sakuracoin address (e.g. MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</source>
+        <translation>Sakuracoin-Adresse eingeben (z.B. MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</translation>
     </message>
     <message>
         <location line="-2"/>
