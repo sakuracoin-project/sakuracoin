@@ -28,21 +28,21 @@ namespace Checkpoints
         double fTransactionsPerDay;
     };
 
-    // What makes a good checkpoint block? TODO
+    // What makes a good checkpoint block?
     // + Is surrounded by blocks with reasonable timestamps
     //   (no blocks before with a timestamp after, none after with
     //    timestamp before)
     // + Contains no strange transactions
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        (  1500, uint256("0x841a2965955dd288cfa707a755d05a54e45f8bd476835ec9af4402a2b59a2967"))
+        ( 77500, uint256("0x93cff5764cc7b9af3285d18d98f0162f8ce534d01e7d00efd024c38e5541fd00"))
         ;
     static const CCheckpointData data = {
         &mapCheckpoints,
-        1383887110, // * UNIX timestamp of last checkpoint block TODO
-        2179203,    // * total number of transactions between genesis and last checkpoint TODO
+        1394857706, // * UNIX timestamp of last checkpoint block
+        87078,      // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
-        8000.0     // * estimated number of transactions per day after checkpoint TODO
+        1013.0     // * estimated number of transactions per day after checkpoint
     };
 
     static MapCheckpoints mapCheckpointsTestnet = // TODO
@@ -65,7 +65,6 @@ namespace Checkpoints
 
     bool CheckBlock(int nHeight, const uint256& hash)
     {
-		return true; // TODO
         if (fTestNet) return true; // Testnet has no checkpoints
         if (!GetBoolArg("-checkpoints", true))
             return true;
@@ -79,7 +78,6 @@ namespace Checkpoints
 
     // Guess how far we are in the verification process at the given block index
     double GuessVerificationProgress(CBlockIndex *pindex) {
-		return 0.0; // TODO
         if (pindex==NULL)
             return 0.0;
 
@@ -111,7 +109,6 @@ namespace Checkpoints
 
     int GetTotalBlocksEstimate()
     {
-        return 0; // TODO
         if (fTestNet) return 0; // Testnet has no checkpoints
         if (!GetBoolArg("-checkpoints", true))
             return 0;
@@ -123,7 +120,6 @@ namespace Checkpoints
 
     CBlockIndex* GetLastCheckpoint(const std::map<uint256, CBlockIndex*>& mapBlockIndex)
     {
-        return NULL; // TODO
         if (fTestNet) return NULL; // Testnet has no checkpoints
         if (!GetBoolArg("-checkpoints", true))
             return NULL;
