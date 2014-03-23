@@ -131,7 +131,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 
 ## 寄付
 
-<script src="http://coindonationwidget.com/jp/coin.js"></script>
+<script src="http://coindonationwidget.com/widget/coin.js"></script>
 <script>
   CoinWidgetCom.go({
     wallet_address: "MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY"
