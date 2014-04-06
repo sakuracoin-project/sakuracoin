@@ -68,6 +68,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 
 ## 外部の交換所(Exchange)
 
+* [Twitterウォレット] (Ripple内で取引可能)
 * [したらば掲示板交換]
 
 ## sakuracoin.conf 設定例
@@ -89,6 +90,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 
 ## 採掘所(Pools)
 
+* [Lava Pool]
 * [Sakura Pool]
 * [SakuraCoin SKR mining pool](http://skr.crypto-hamsters.com/)
 
@@ -200,3 +202,4 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 [SkrcShop]: http://skrcshop.blog.fc2.com/
 [TANUO PRO]: http://tanuo6.wix.com/tanuotrade
 [暗号通貨寄付ウィジェット]: http://coindonationwidget.com/jp/
+[Lava Pool]: http://sakura.lavapool.info/
