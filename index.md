@@ -13,10 +13,6 @@ title: Sakuracoin
 
 いつも「さくらコイン」にご協力いただき、ありがとうございます。
 
-<div id="lineChart" style="width:800px; height:150px;"></div>
-
-(難易度切り替わり時点のハッシュレートの計算がおかしいですが、ご了承ください。)
-
 ## さくらコインについて
 
 さくらコインは2013/12/23に約8時間の間だけ公開されていた旧モナーコインのブロックチェインを扱える仮想通貨です。
@@ -60,7 +56,7 @@ Android用のクライアントソフト
   * Vault-1.2.30.jar (少しソースと違う部分があります)
     * https://github.com/ohac/Vault
     * Vaultを使う場合はChestShopなどと組み合わせて使用してください。
-  * 36.2.132.153でBukkitサーバを立ち上げています。お気軽にどうぞ。コインの入手も可能です。
+  * 36.2.132.153でBukkitサーバを立ち上げています。お気軽にどうぞ。コインの入手も可能です。(現在、停止中です。)
 
 ## さくらコインの入手
 
@@ -75,7 +71,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 
     rpcuser=user
     rpcpassword=pass
-    addnode=36.2.132.153:9301
+    addnode=36.55.238.28:9301
 
 ## 仕様
 
@@ -110,6 +106,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 * [暗号通貨寄付ウィジェット]
 * [SkrcShop]
 * [TANUO PRO]
+* [monagraph]
 
 ## その他のコイン
 
@@ -203,3 +200,4 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 [TANUO PRO]: http://tanuo6.wix.com/tanuotrade
 [暗号通貨寄付ウィジェット]: http://coindonationwidget.com/jp/
 [Lava Pool]: http://sakura.lavapool.info/
+[monagraph]: http://monagraph.com/
