@@ -63,7 +63,7 @@ MSYS shell:
 
 Boost
 -----
-DOS prompt:
+MSYS shell:
 
 	downloaded boost jam 3.1.18
 	cd \boost-1.50.0-mgw
@@ -81,8 +81,8 @@ MSYS shell:
 	cp *.h miniupnpc/
 
 Sakuracoin
-----------
-DOS prompt:
+-------
+MSYS shell:
 
 	cd \sakuracoin\src
 	mingw32-make -f makefile.mingw
