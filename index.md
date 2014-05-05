@@ -89,6 +89,9 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 * [Lava Pool]
 * [Sakura Pool]
 * [SakuraCoin SKR mining pool](http://skr.crypto-hamsters.com/)
+* 投票中
+  * [MintPal](https://www.mintpal.com/voting#SKR)
+  * [ICURREX](https://www.icurrex.com/coin_poll)
 
 ## ブロック情報(Block explorer)
 
