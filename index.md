@@ -90,6 +90,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 
 ## 採掘所(Pools)
 
+* [NOMP]
 * [Lava Pool]
 * [Sakura Pool]
 * [SakuraCoin SKR mining pool](http://skr.crypto-hamsters.com/)
@@ -205,3 +206,4 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 [暗号通貨寄付ウィジェット]: http://coindonationwidget.com/jp/
 [Lava Pool]: http://sakura.lavapool.info/
 [monagraph]: http://monagraph.com/
+[NOMP]: http://www.sighash.info:8080/
