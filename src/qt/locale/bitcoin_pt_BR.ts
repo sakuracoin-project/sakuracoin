@@ -420,12 +420,12 @@ Este produto inclui software desenvolvido pelo Projeto OpenSSL para uso no OpenS
     <message>
         <location line="-347"/>
         <source>Send coins to a Sakuracoin address</source>
-        <translation>Enviar moedas para um endereço litecoin</translation>
+        <translation>Enviar moedas para um endereço Sakuracoin</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Sakuracoin</source>
-        <translation>Modificar opções de configuração para litecoin</translation>
+        <translation>Modificar opções de configuração para Sakuracoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1069,7 +1069,7 @@ Endereço: %4</translation>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start Sakuracoin: click-to-pay handler</source>
-        <translation>Não foi possível iniciar litecoin: manipulador clique-para-pagar</translation>
+        <translation>Não foi possível iniciar Sakuracoin: manipulador clique-para-pagar</translation>
     </message>
 </context>
 <context>

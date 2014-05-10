@@ -415,12 +415,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-347"/>
         <source>Send coins to a Sakuracoin address</source>
-        <translation>Slanje novca na litecoin adresu</translation>
+        <translation>Slanje novca na Sakuracoin adresu</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Sakuracoin</source>
-        <translation>Promijeni postavke konfiguracije za litecoin</translation>
+        <translation>Promijeni postavke konfiguracije za Sakuracoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -733,7 +733,7 @@ Adresa:%4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Sakuracoin address.</source>
-        <translation>Upisana adresa &quot;%1&quot; nije valjana litecoin adresa.</translation>
+        <translation>Upisana adresa &quot;%1&quot; nije valjana Sakuracoin adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -935,7 +935,7 @@ Adresa:%4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio litecoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite željeni najmanji dio Sakuracoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <location line="+9"/>

@@ -1070,7 +1070,7 @@ Adresse : %4
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start Sakuracoin: click-to-pay handler</source>
-        <translation>Impossible de démarrer litecoin : gestionnaire de cliquer-pour-payer</translation>
+        <translation>Impossible de démarrer Sakuracoin : gestionnaire de cliquer-pour-payer</translation>
     </message>
 </context>
 <context>

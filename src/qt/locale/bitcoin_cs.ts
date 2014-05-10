@@ -945,7 +945,7 @@ Adresa: %4
     <message>
         <location line="+9"/>
         <source>Whether to show Sakuracoin addresses in the transaction list or not.</source>
-        <translation>Zda ukazovat litecoinové adresy ve výpisu transakcí nebo ne.</translation>
+        <translation>Zda ukazovat Sakuracoinové adresy ve výpisu transakcí nebo ne.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1070,7 +1070,7 @@ Adresa: %4
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start Sakuracoin: click-to-pay handler</source>
-        <translation>Nemůžu spustit litecoin: obsluha click-to-pay</translation>
+        <translation>Nemůžu spustit Sakuracoin: obsluha click-to-pay</translation>
     </message>
 </context>
 <context>

@@ -420,7 +420,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Sakuracoin</source>
-        <translation>Modificar les opcions de configuració per litecoin</translation>
+        <translation>Modificar les opcions de configuració per Sakuracoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1061,7 +1061,7 @@ Address: %4
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start Sakuracoin: click-to-pay handler</source>
-        <translation>No es pot iniciar litecoin: manejador clicla-per-pagar</translation>
+        <translation>No es pot iniciar Sakuracoin: manejador clicla-per-pagar</translation>
     </message>
 </context>
 <context>

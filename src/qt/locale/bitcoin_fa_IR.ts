@@ -451,7 +451,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="-165"/>
         <location line="+530"/>
         <source>Sakuracoin</source>
-        <translation>litecoin</translation>
+        <translation>Sakuracoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -532,7 +532,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+47"/>
         <source>Sakuracoin client</source>
-        <translation>مشتری litecoin</translation>
+        <translation>مشتری Sakuracoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
@@ -731,7 +731,7 @@ Address: %4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Sakuracoin address.</source>
-        <translation>آدرس وارد شده &quot;%1&quot; یک آدرس صحیح برای litecoin نسشت</translation>
+        <translation>آدرس وارد شده &quot;%1&quot; یک آدرس صحیح برای Sakuracoin نسشت</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1009,7 +1009,7 @@ Address: %4
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Sakuracoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه litecoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه Sakuracoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1443,7 +1443,7 @@ Address: %4
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Sakuracoin address (e.g. MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</source>
-        <translation>یک آدرس litecoin وارد کنید (مثال MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</translation>
+        <translation>یک آدرس Sakuracoin وارد کنید (مثال MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</translation>
     </message>
 </context>
 <context>
@@ -1466,7 +1466,7 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</source>
-        <translation>یک آدرس litecoin وارد کنید (مثال MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</translation>
+        <translation>یک آدرس Sakuracoin وارد کنید (مثال MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1539,7 +1539,7 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</source>
-        <translation>یک آدرس litecoin وارد کنید (مثال MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</translation>
+        <translation>یک آدرس Sakuracoin وارد کنید (مثال MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1560,7 +1560,7 @@ Address: %4
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a Sakuracoin address (e.g. MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</source>
-        <translation>یک آدرس litecoin وارد کنید (مثال MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</translation>
+        <translation>یک آدرس Sakuracoin وارد کنید (مثال MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2182,7 +2182,7 @@ Address: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>Sakuracoin version</source>
-        <translation>نسخه litecoin</translation>
+        <translation>نسخه Sakuracoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2192,7 +2192,7 @@ Address: %4
     <message>
         <location line="-29"/>
         <source>Send command to -server or sakuracoind</source>
-        <translation>ارسال دستور به سرور یا litecoined</translation>
+        <translation>ارسال دستور به سرور یا sakuracoind</translation>
     </message>
     <message>
         <location line="-23"/>

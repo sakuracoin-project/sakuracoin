@@ -1073,7 +1073,7 @@ Dirección: %4
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start Sakuracoin: click-to-pay handler</source>
-        <translation>No se pudo iniciar litecoin: manejador de pago-al-clic</translation>
+        <translation>No se pudo iniciar Sakuracoin: manejador de pago-al-clic</translation>
     </message>
 </context>
 <context>
@@ -2230,7 +2230,7 @@ Dirección: %4
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: sakuracoind.pid)</source>
-        <translation>Especificar archivo pid (predeterminado: sakuracoin.pid)
+        <translation>Especificar archivo pid (predeterminado: sakuracoind.pid)
 </translation>
     </message>
     <message>

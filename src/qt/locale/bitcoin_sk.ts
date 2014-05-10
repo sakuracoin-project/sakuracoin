@@ -271,7 +271,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-56"/>
         <source>Sakuracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Sakuracoins from being stolen by malware infecting your computer.</source>
-        <translation>Sakuracoin sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou litecoinov pomocou škodlivého software.</translation>
+        <translation>Sakuracoin sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou Sakuracoinov pomocou škodlivého software.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -420,7 +420,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Sakuracoin</source>
-        <translation>Upraviť možnosti nastavenia pre litecoin</translation>
+        <translation>Upraviť možnosti nastavenia pre Sakuracoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -732,7 +732,7 @@ Adresa: %4</translation>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Sakuracoin address.</source>
-        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou litecoin.</translation>
+        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou Sakuracoin.</translation>
     </message>
     <message>
         <location line="+10"/>

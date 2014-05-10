@@ -423,12 +423,12 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     <message>
         <location line="-347"/>
         <source>Send coins to a Sakuracoin address</source>
-        <translation>Enviar monedas a una dirección litecoin</translation>
+        <translation>Enviar monedas a una dirección Sakuracoin</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Sakuracoin</source>
-        <translation>Modifica las opciones de configuración de litecoin</translation>
+        <translation>Modifica las opciones de configuración de Sakuracoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2201,7 +2201,7 @@ Dirección: %4</translation>
     <message>
         <location line="-29"/>
         <source>Send command to -server or sakuracoind</source>
-        <translation>Envia comando a litecoin lanzado con -server u sakuracoind
+        <translation>Envia comando a Sakuracoin lanzado con -server u sakuracoind
 </translation>
     </message>
     <message>
@@ -2231,7 +2231,7 @@ Dirección: %4</translation>
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: sakuracoind.pid)</source>
-        <translation>Especifica archivo pid (predeterminado: sakuracoin.pid)
+        <translation>Especifica archivo pid (predeterminado: sakuracoind.pid)
 </translation>
     </message>
     <message>

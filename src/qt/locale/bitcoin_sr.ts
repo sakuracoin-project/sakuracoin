@@ -415,12 +415,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-347"/>
         <source>Send coins to a Sakuracoin address</source>
-        <translation>Пошаљите новац на litecoin адресу</translation>
+        <translation>Пошаљите новац на Sakuracoin адресу</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Sakuracoin</source>
-        <translation>Изаберите могућности litecoin-а</translation>
+        <translation>Изаберите могућности Sakuracoin-а</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2189,7 +2189,7 @@ Address: %4
     <message>
         <location line="-29"/>
         <source>Send command to -server or sakuracoind</source>
-        <translation>Pošalji naredbu na -server ili litecoinid
+        <translation>Pošalji naredbu na -server ili sakuracoind
 </translation>
     </message>
     <message>

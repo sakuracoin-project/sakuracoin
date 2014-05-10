@@ -1070,7 +1070,7 @@ Address: %4
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start Sakuracoin: click-to-pay handler</source>
-        <translation>無法啟動 litecoin 隨按隨付處理器</translation>
+        <translation>無法啟動 Sakuracoin 隨按隨付處理器</translation>
     </message>
 </context>
 <context>

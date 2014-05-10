@@ -421,7 +421,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-347"/>
         <source>Send coins to a Sakuracoin address</source>
-        <translation>Στείλε νομισματα σε μια διεύθυνση litecoin</translation>
+        <translation>Στείλε νομισματα σε μια διεύθυνση Sakuracoin</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -760,7 +760,7 @@ Address: %4
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
         <source>Sakuracoin-Qt</source>
-        <translation>litecoin-qt</translation>
+        <translation>Sakuracoin-qt</translation>
     </message>
     <message>
         <location line="-12"/>

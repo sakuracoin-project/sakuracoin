@@ -424,7 +424,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Sakuracoin</source>
-        <translation>Keisti litecoin konfigūracijos galimybes</translation>
+        <translation>Keisti Sakuracoin konfigūracijos galimybes</translation>
     </message>
     <message>
         <location line="+9"/>

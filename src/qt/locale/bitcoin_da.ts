@@ -1070,7 +1070,7 @@ Adresse: %4
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start Sakuracoin: click-to-pay handler</source>
-        <translation>Kan ikke starte litecoin: click-to-pay-håndtering</translation>
+        <translation>Kan ikke starte Sakuracoin: click-to-pay-håndtering</translation>
     </message>
 </context>
 <context>
@@ -2498,7 +2498,7 @@ f.eks.: alertnotify=echo %%s | mail -s &quot;Sakuracoin Alert&quot; admin@foo.co
     <message>
         <location line="+1"/>
         <source>Failed to write to coin database</source>
-        <translation>Skrivning af litecoin-database mislykkedes</translation>
+        <translation>Skrivning af Sakuracoin-database mislykkedes</translation>
     </message>
     <message>
         <location line="+1"/>

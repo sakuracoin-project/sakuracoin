@@ -1365,7 +1365,7 @@ Cím: %4
     <message>
         <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Nincs ennyi litecoin az egyenlegeden.</translation>
+        <translation>Nincs ennyi Sakuracoin az egyenlegeden.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2880,7 +2880,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Sakuracoin Alert&quot; admin@f
     <message>
         <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation>Nincs elég litecoinod.</translation>
+        <translation>Nincs elég Sakuracoinod.</translation>
     </message>
     <message>
         <location line="+10"/>

@@ -420,12 +420,12 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     <message>
         <location line="-347"/>
         <source>Send coins to a Sakuracoin address</source>
-        <translation>Enviar moedas para um endereço litecoin</translation>
+        <translation>Enviar moedas para um endereço Sakuracoin</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Sakuracoin</source>
-        <translation>Modificar opções de configuração para litecoin</translation>
+        <translation>Modificar opções de configuração para Sakuracoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -738,7 +738,7 @@ Endereço: %4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Sakuracoin address.</source>
-        <translation>O endereço introduzido &quot;%1&quot; não é um endereço litecoin válido.</translation>
+        <translation>O endereço introduzido &quot;%1&quot; não é um endereço Sakuracoin válido.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -845,7 +845,7 @@ Endereço: %4
     <message>
         <location line="+6"/>
         <source>Automatically open the Sakuracoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir a porta do cliente litecoin automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
+        <translation>Abrir a porta do cliente Sakuracoin automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1070,7 +1070,7 @@ Endereço: %4
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start Sakuracoin: click-to-pay handler</source>
-        <translation>Impossível começar o modo clicar-para-pagar com litecoin:</translation>
+        <translation>Impossível começar o modo clicar-para-pagar com Sakuracoin:</translation>
     </message>
 </context>
 <context>
