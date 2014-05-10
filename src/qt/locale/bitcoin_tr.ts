@@ -1069,7 +1069,7 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start litecoin: click-to-pay handler</source>
+        <source>Cannot start Sakuracoin: click-to-pay handler</source>
         <translation>Sakuracoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
 </context>
