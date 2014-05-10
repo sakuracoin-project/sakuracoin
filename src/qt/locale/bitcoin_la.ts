@@ -2222,7 +2222,7 @@ Inscriptio: %4
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: sakuracoind.pid)</source>
-        <translation>Specifica pid plicam (praedefinitum: sakuracoin.pid)</translation>
+        <translation>Specifica pid plicam (praedefinitum: sakuracoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

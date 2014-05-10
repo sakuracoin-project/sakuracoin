@@ -2219,7 +2219,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: sakuracoind.pid)</source>
-        <translation>pid फाइल का विवरण दें (default: sakuracoin.pid)</translation>
+        <translation>pid फाइल का विवरण दें (default: sakuracoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

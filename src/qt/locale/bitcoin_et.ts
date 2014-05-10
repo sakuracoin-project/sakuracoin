@@ -2222,7 +2222,7 @@ Aadress: %4⏎</translation>
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: sakuracoind.pid)</source>
-        <translation>Täpsusta PID fail (vaikimisi: sakuracoin.pid)</translation>
+        <translation>Täpsusta PID fail (vaikimisi: sakuracoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

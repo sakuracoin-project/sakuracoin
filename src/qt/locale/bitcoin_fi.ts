@@ -2223,7 +2223,7 @@ Osoite: %4</translation>
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: sakuracoind.pid)</source>
-        <translation>Määritä pid-tiedosto (oletus: sakuracoin.pid)</translation>
+        <translation>Määritä pid-tiedosto (oletus: sakuracoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

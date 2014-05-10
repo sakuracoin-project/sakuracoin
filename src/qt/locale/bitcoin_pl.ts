@@ -2223,7 +2223,7 @@ Adres: %4
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: sakuracoind.pid)</source>
-        <translation>Wskaż plik pid (domyślnie: sakuracoin.pid)</translation>
+        <translation>Wskaż plik pid (domyślnie: sakuracoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
