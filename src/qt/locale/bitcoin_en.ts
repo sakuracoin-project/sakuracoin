@@ -277,8 +277,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Sakuracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sakuracoins from being stolen by malware infecting your computer.</source>
-        <translation>Sakuracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sakuracoins from being stolen by malware infecting your computer.</translation>
+        <source>Sakuracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Sakuracoins from being stolen by malware infecting your computer.</source>
+        <translation>Sakuracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Sakuracoins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1083,8 +1083,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start sakuracoin: click-to-pay handler</source>
-        <translation>Cannot start sakuracoin: click-to-pay handler</translation>
+        <source>Cannot start Sakuracoin: click-to-pay handler</source>
+        <translation>Cannot start Sakuracoin: click-to-pay handler</translation>
     </message>
 </context>
 <context>
