@@ -2224,7 +2224,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: sakuracoind.pid)</source>
-        <translation>Задать pid-файл (по умолчанию: litecoin.pid)</translation>
+        <translation>Задать pid-файл (по умолчанию: sakuracoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

@@ -2218,7 +2218,7 @@ Adresa:%4
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: sakuracoind.pid)</source>
-        <translation>Odredi proces ID datoteku (ugrađeni izbor: litecoin.pid)</translation>
+        <translation>Odredi proces ID datoteku (ugrađeni izbor: sakuracoin.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

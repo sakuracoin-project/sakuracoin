@@ -2230,7 +2230,7 @@ Dirección: %4
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: sakuracoind.pid)</source>
-        <translation>Especificar archivo pid (predeterminado: litecoin.pid)
+        <translation>Especificar archivo pid (predeterminado: sakuracoin.pid)
 </translation>
     </message>
     <message>
