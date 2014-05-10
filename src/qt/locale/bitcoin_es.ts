@@ -278,8 +278,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-56"/>
-        <source>Sakuracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Sakuracoin se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus litecoins de robo por malware que infecte su sistema.</translation>
+        <source>Sakuracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Sakuracoins from being stolen by malware infecting your computer.</source>
+        <translation>Sakuracoin se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus Sakuracoins de robo por malware que infecte su sistema.</translation>
     </message>
     <message>
         <location line="+13"/>

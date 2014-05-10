@@ -123,7 +123,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your Sakuracoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Sakuracoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw litecoins verzendt.</translation>
+        <translation>Dit zijn uw Sakuracoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw Sakuracoins verzendt.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -275,8 +275,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-56"/>
-        <source>Sakuracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Sakuracoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw litecoins stelen.</translation>
+        <source>Sakuracoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Sakuracoins from being stolen by malware infecting your computer.</source>
+        <translation>Sakuracoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw Sakuracoins stelen.</translation>
     </message>
     <message>
         <location line="+13"/>
