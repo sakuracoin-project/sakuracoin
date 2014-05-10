@@ -2196,8 +2196,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Mitte mandatum ad -server vel litecoind</translation>
+        <source>Send command to -server or sakuracoind</source>
+        <translation>Mitte mandatum ad -server vel sakuracoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2221,7 +2221,7 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
+        <source>Specify pid file (default: sakuracoind.pid)</source>
         <translation>Specifica pid plicam (praedefinitum: litecoin.pid)</translation>
     </message>
     <message>

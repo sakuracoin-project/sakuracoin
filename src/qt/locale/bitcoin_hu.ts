@@ -2198,8 +2198,8 @@ Cím: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Parancs küldése a -serverhez vagy a litecoindhez
+        <source>Send command to -server or sakuracoind</source>
+        <translation>Parancs küldése a -serverhez vagy a sakuracoindhez
 </translation>
     </message>
     <message>
@@ -2228,8 +2228,8 @@ Cím: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>pid-fájl (alapértelmezett: litecoind.pid)
+        <source>Specify pid file (default: sakuracoind.pid)</source>
+        <translation>pid-fájl (alapértelmezett: sakuracoind.pid)
 </translation>
     </message>
     <message>

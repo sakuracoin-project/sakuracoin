@@ -2197,8 +2197,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>送指令給 -server 或 litecoind
+        <source>Send command to -server or sakuracoind</source>
+        <translation>送指令給 -server 或 sakuracoind
 </translation>
     </message>
     <message>
@@ -2227,8 +2227,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>指定行程識別碼檔案 (預設: litecoind.pid)
+        <source>Specify pid file (default: sakuracoind.pid)</source>
+        <translation>指定行程識別碼檔案 (預設: sakuracoind.pid)
 </translation>
     </message>
     <message>

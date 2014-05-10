@@ -2197,8 +2197,8 @@ Endereço: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Enviar comando para -server ou litecoind</translation>
+        <source>Send command to -server or sakuracoind</source>
+        <translation>Enviar comando para -server ou sakuracoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2222,8 +2222,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>Especificar ficheiro pid (por defeito: litecoind.pid)</translation>
+        <source>Specify pid file (default: sakuracoind.pid)</source>
+        <translation>Especificar ficheiro pid (por defeito: sakuracoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

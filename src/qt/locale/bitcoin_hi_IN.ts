@@ -2193,8 +2193,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>-server या litecoind को कमांड भेजें</translation>
+        <source>Send command to -server or sakuracoind</source>
+        <translation>-server या sakuracoind को कमांड भेजें</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2218,7 +2218,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
+        <source>Specify pid file (default: sakuracoind.pid)</source>
         <translation>pid फाइल का विवरण दें (default: litecoin.pid)</translation>
     </message>
     <message>

@@ -2192,8 +2192,8 @@ Adresa:%4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Pošalji komandu usluzi -server ili litecoind</translation>
+        <source>Send command to -server or sakuracoind</source>
+        <translation>Pošalji komandu usluzi -server ili sakuracoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,7 +2217,7 @@ Adresa:%4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
+        <source>Specify pid file (default: sakuracoind.pid)</source>
         <translation>Odredi proces ID datoteku (ugrađeni izbor: litecoin.pid)</translation>
     </message>
     <message>

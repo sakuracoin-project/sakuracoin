@@ -2196,8 +2196,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Saada käsklus -serverile või litecoindile</translation>
+        <source>Send command to -server or sakuracoind</source>
+        <translation>Saada käsklus -serverile või sakuracoindile</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2221,7 +2221,7 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
+        <source>Specify pid file (default: sakuracoind.pid)</source>
         <translation>Täpsusta PID fail (vaikimisi: litecoin.pid)</translation>
     </message>
     <message>
