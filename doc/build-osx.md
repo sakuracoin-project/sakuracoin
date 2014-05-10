@@ -137,7 +137,7 @@ Creating a release build
 A sakuracoind binary is not included in the Sakuracoin-Qt.app bundle. You can ignore
 this section if you are building `sakuracoind` for your own use.
 
-If you are building `litecond` for others, your build machine should be set up
+If you are building `sakuracoind` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
