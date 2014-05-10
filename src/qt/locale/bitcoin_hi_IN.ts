@@ -2213,8 +2213,8 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: litecoin.conf)</source>
-        <translation>configuraion की फाइल का विवरण दें (default: litecoin.conf)</translation>
+        <source>Specify configuration file (default: sakuracoin.conf)</source>
+        <translation>configuraion की फाइल का विवरण दें (default: sakuracoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>

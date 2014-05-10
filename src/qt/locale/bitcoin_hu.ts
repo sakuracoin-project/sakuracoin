@@ -2222,8 +2222,8 @@ Cím: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: litecoin.conf)</source>
-        <translation>Konfigurációs fájl (alapértelmezett: litecoin.conf)
+        <source>Specify configuration file (default: sakuracoin.conf)</source>
+        <translation>Konfigurációs fájl (alapértelmezett: sakuracoin.conf)
 </translation>
     </message>
     <message>

@@ -2212,8 +2212,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: litecoin.conf)</source>
-        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: litecoin.conf)</translation>
+        <source>Specify configuration file (default: sakuracoin.conf)</source>
+        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: sakuracoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>

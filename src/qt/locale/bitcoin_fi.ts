@@ -2217,8 +2217,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: litecoin.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: litecoin.conf)</translation>
+        <source>Specify configuration file (default: sakuracoin.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: sakuracoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>

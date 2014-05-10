@@ -2216,8 +2216,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: litecoin.conf)</source>
-        <translation>Täpsusta sätete fail (vaikimisi: litecoin.conf)</translation>
+        <source>Specify configuration file (default: sakuracoin.conf)</source>
+        <translation>Täpsusta sätete fail (vaikimisi: sakuracoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>

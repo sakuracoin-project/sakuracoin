@@ -2217,8 +2217,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: litecoin.conf)</source>
-        <translation>Especificar ficheiro de configuração (por defeito: litecoin.conf)</translation>
+        <source>Specify configuration file (default: sakuracoin.conf)</source>
+        <translation>Especificar ficheiro de configuração (por defeito: sakuracoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>

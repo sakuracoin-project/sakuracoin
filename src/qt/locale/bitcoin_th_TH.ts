@@ -2208,7 +2208,7 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: litecoin.conf)</source>
+        <source>Specify configuration file (default: sakuracoin.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
