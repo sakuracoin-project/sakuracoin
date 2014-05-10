@@ -138,7 +138,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation>Envoyer des &amp;Litecoins</translation>
+        <translation>Envoyer des &amp;Sakuracoins</translation>
     </message>
     <message>
         <location line="+260"/>
