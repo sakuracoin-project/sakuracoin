@@ -204,6 +204,6 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 [SkrcShop]: http://skrcshop.blog.fc2.com/
 [TANUO PRO]: http://tanuo6.wix.com/tanuotrade
 [暗号通貨寄付ウィジェット]: http://coindonationwidget.com/jp/
-[Lava Pool]: http://sakura.lavapool.info/
+[Lava Pool]: http://new.lavapool.info/
 [monagraph]: http://monagraph.com/
 [NOMP]: http://www.sighash.info:8080/
