@@ -95,7 +95,6 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 * [NOMP]
 * [Lava Pool]
 * [Sakura Pool]
-* [SakuraCoin SKR mining pool](http://skr.crypto-hamsters.com/)
 
 ## ブロック情報(Block explorer)
 
