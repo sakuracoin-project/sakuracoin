@@ -65,11 +65,12 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 ## 外部の交換所(Exchange)
 
 * [Twitterウォレット] (Ripple内で取引可能)
+* [ICURREX](https://www.icurrex.com/)
 * [したらば掲示板交換]
 * ヤフオクやモナオクでの販売/交換もあるようです。
 * 投票中
+  * [SWISSCEX](https://www.swisscex.com/voting)
   * [MintPal](https://www.mintpal.com/voting#SKR)
-  * [ICURREX](https://www.icurrex.com/coin_poll)
 
 ## sakuracoin.conf 設定例
 
@@ -206,4 +207,4 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 [暗号通貨寄付ウィジェット]: http://coindonationwidget.com/jp/
 [Lava Pool]: http://new.lavapool.info/
 [monagraph]: http://monagraph.com/
-[NOMP]: http://www.sighash.info:8080/
+[NOMP]: http://nomp.sighash.info/
