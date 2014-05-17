@@ -69,6 +69,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 * [したらば掲示板交換]
 * ヤフオクやモナオクでの販売/交換もあるようです。
 * 投票中
+  * [もなとれ](http://vote.monatr.jp/)
   * [SWISSCEX](https://www.swisscex.com/voting)
   * [MintPal](https://www.mintpal.com/voting#SKR)
 
