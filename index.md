@@ -93,6 +93,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 * [NOMP]
 * [Lava Pool]
 * [Sakura Pool]
+* [LA Mining pool](http://pool.xau.jp/)
 
 ## ブロック情報(Block explorer)
 
