@@ -63,9 +63,9 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 ## 外部の交換所(Exchange)
 
 * [Twitterウォレット] (Ripple内で取引可能)
-* [ICURREX](https://www.icurrex.com/)
 * [したらば掲示板交換]
 * ヤフオクやモナオクでの販売/交換もあるようです。
+* [ICURREX](https://www.icurrex.com/) サービス停止中のようです。
 * 投票中
   * [もなとれ](http://vote.monatr.jp/)
   * [SWISSCEX](https://www.swisscex.com/voting)
