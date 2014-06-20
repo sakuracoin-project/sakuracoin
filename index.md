@@ -101,6 +101,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 
 ## Others
 
+* [addnode情報](http://seed.sighash.info/) 同期できないときにご確認ください。
 * [Twitterウォレット]
 * [Webウォレット] (テスト中)
 * [したらば掲示板]
