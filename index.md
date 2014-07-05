@@ -113,6 +113,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 * [SkrcShop]
 * [TANUO PRO]
 * [monagraph]
+* [Faucet](https://multi.xau.jp/faucet/)
 
 ## その他のコイン
 
