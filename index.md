@@ -114,6 +114,7 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 * [TANUO PRO]
 * [monagraph]
 * [Faucet](https://multi.xau.jp/faucet/)
+* [Pool stats](http://pool.xau.jp/stats/)
 
 ## その他のコイン
 
