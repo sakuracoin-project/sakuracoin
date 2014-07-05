@@ -115,6 +115,8 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 * [monagraph]
 * [Faucet](https://multi.xau.jp/faucet/)
 * [Pool stats](http://pool.xau.jp/stats/)
+* [コインプレゼント(仮称)](http://giveme.chikumagumi.com/)
+* [サクラッカα版](https://twitter.com/sakuracca)
 
 ## その他のコイン
 
