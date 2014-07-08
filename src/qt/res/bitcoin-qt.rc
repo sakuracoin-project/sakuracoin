@@ -11,7 +11,7 @@ IDI_ICON2 ICON DISCARDABLE "icons/bitcoin_testnet.ico"
 #define COPYRIGHT_STR          "2009-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin developers" \
                                " 2011-" STRINGIZE(COPYRIGHT_YEAR) " The Litecoin developers" \
                                " 2013-" STRINGIZE(COPYRIGHT_YEAR) " The Monacoin developers" \
-                               " 2013-" STRINGIZE(COPYRIGHT_YEAR) " The Dr. Kimoto Chan" \
+                               " 2009-" STRINGIZE(COPYRIGHT_YEAR) " The DigiByte developers" \
                                " 2013-" STRINGIZE(COPYRIGHT_YEAR) " The Sakuracoin developers"
 
 VS_VERSION_INFO VERSIONINFO

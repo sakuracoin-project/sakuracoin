@@ -6,7 +6,7 @@ http://ohac.github.io/sakuracoin/
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
 Copyright (c) 2013-2014 Monacoin Developers
-Copyright (c) 2013-2014 Dr. Kimoto Chan
+Copyright (c) 2009-2014 DigiByte Developers
 Copyright (c) 2013-2014 Sakuracoin Developers
 
 What is Sakuracoin?
