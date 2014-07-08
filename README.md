@@ -13,13 +13,11 @@ What is Sakuracoin?
 -------------------
 
 Sakuracoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
-
-The rest is the same as Bitcoin.
+ - 1.5 minute block targets
+ - subsidy halves in 1051k blocks (~3 years)
+ - 105,120,000 total coins
  - 50 coins per block
- - 2016 blocks to retarget difficulty
+ - 2400 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
 the Sakuracoin client sofware, see http://ohac.github.io/sakuracoin/.
