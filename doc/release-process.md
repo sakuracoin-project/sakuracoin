@@ -32,14 +32,16 @@ Release Process
  Fetch and build inputs: (first time, or when dependency versions change)
 
 	mkdir -p inputs; cd inputs/
-	wget 'http://miniupnp.free.fr/files/download.php?file=miniupnpc-1.9.20140401.tar.gz' -O miniupnpc-1.9.20140401.tar.gz'
+	wget 'http://miniupnp.free.fr/files/download.php?file=miniupnpc-1.9.20140401.tar.gz' -O miniupnpc-1.9.20140401.tar.gz
 	wget 'http://www.openssl.org/source/openssl-1.0.1h.tar.gz'
 	wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
 	wget 'http://zlib.net/zlib-1.2.8.tar.gz'
 	wget 'ftp://ftp.simplesystems.org/pub/libpng/png/src/history/libpng16/libpng-1.6.8.tar.gz'
 	wget 'http://fukuchi.org/works/qrencode/qrencode-3.4.3.tar.bz2'
 	wget 'http://downloads.sourceforge.net/project/boost/boost/1.55.0/boost_1_55_0.tar.bz2'
+	wget 'http://wtogami.fedorapeople.org/boost-mingw-gas-cross-compile-2013-03-03.patch'
 	wget 'http://download.qt-project.org/official_releases/qt/4.8/4.8.5/qt-everywhere-opensource-src-4.8.5.tar.gz'
+	wget 'http://download.qt-project.org/archive/qt/4.8/4.8.5/qt-everywhere-opensource-src-4.8.5.tar.gz'
 	cd ..
 	./bin/gbuild ../sakuracoin/contrib/gitian-descriptors/boost-win32.yml
 	mv build/out/boost-*.zip inputs/
@@ -65,23 +67,25 @@ Release Process
 
   Build output expected:
 
-  1. linux 32-bit and 64-bit binaries + source (sakuracoin-${VERSION}-linux-gitian.zip)
-  2. windows 32-bit binary, installer + source (sakuracoin-${VERSION}-win32-gitian.zip)
+  1. linux 32-bit and 64-bit binaries + source (sakuracoin-${VERSION}-linux.zip)
+  2. windows 32-bit binary, installer + source (sakuracoin-${VERSION}-win32.zip)
   3. Gitian signatures (in gitian.sigs/${VERSION}[-win32]/(your gitian key)/
 
 repackage gitian builds for release as stand-alone zip/tar/installer exe
 
 **Linux .tar.gz:**
 
-	unzip sakuracoin-${VERSION}-linux-gitian.zip -d sakuracoin-${VERSION}-linux
+	unzip sakuracoin-${VERSION}-linux.zip -d sakuracoin-${VERSION}-linux
 	tar czvf sakuracoin-${VERSION}-linux.tar.gz sakuracoin-${VERSION}-linux
 	rm -rf sakuracoin-${VERSION}-linux
+	rm sakuracoin-${VERSION}-linux.zip
 
 **Windows .zip and setup.exe:**
 
-	unzip sakuracoin-${VERSION}-win32-gitian.zip -d sakuracoin-${VERSION}-win32
+	unzip sakuracoin-${VERSION}-win32.zip -d sakuracoin-${VERSION}-win32
 	mv sakuracoin-${VERSION}-win32/sakuracoin-*-setup.exe .
-	zip -r sakuracoin-${VERSION}-win32.zip bitcoin-${VERSION}-win32
+	rm sakuracoin-${VERSION}-win32.zip
+	zip -r sakuracoin-${VERSION}-win32.zip sakuracoin-${VERSION}-win32
 	rm -rf sakuracoin-${VERSION}-win32
 
 **Perform Mac build:**
