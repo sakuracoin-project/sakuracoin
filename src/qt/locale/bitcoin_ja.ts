@@ -245,7 +245,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SAKURACOINS&lt;/b&gt;!</source>
         <translation>注意：ウォレットを暗号化してパスフレーズを忘れると&lt;b&gt;Sakuracoinをすべて失う&lt;/b&gt;ことになります。</translation>
     </message>
     <message>
