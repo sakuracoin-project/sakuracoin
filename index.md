@@ -91,7 +91,6 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 
 * [NOMP]
 * [Lava Pool]
-* [Sakura Pool]
 * [LA Mining pool](http://pool.xau.jp/)
 
 ## ブロック情報(Block explorer)
@@ -196,7 +195,6 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 [sakuracoin]: https://github.com/ohac/sakuracoin
 [GitHubからダウンロード]: https://github.com/ohac/sakuracoin-wallet/releases/
 [ge.ttからダウンロード]: http://ge.tt/8AI28VH1?c
-[Sakura Pool]: http://sakurapool.dip.jp/
 [Twitterウォレット]: http://www.sighash.info/
 [Webウォレット]: http://coins.asiru.info/index2.html
 [コイン寄付ボタン]: http://bitcoinlove.lv9.co/
