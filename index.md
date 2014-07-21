@@ -41,10 +41,10 @@ Mac OSX用のクライアントソフト
 
 Android用のクライアントソフト
 
-* [GitHubからダウンロード]してください。(2014/02/02 22:00バージョン)
-  * 現在、DigiShield V2に非対応なのでまもなく使えなくなります。
+* [GitHubからダウンロード]してください。(2014/07/21 10:00バージョン)
+  * DigiShield V2に対応しましたが、195000ブロック以降の動作確認がまだなのでリリース候補版とします。
 
-マインクラフト用のプラグイン(現在、DigiShield V2に非対応なのでまもなく使えなくなります。)
+マインクラフト用のプラグイン(DigiShield V2に対応しましたが、195000ブロック以降の動作確認がまだなのでリリース候補版とします。)
 
 * [ge.ttからダウンロード]してください。(2014/01/28 22:00バージョン)
   * Sakuracoinish-1.0.jar (少しソースと違う部分があります)
@@ -64,7 +64,6 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 * [Twitterウォレット] (Ripple内で取引可能)
 * [したらば掲示板交換]
 * ヤフオクやモナオクでの販売/交換もあるようです。
-* [ICURREX](https://www.icurrex.com/) サービス停止中のようです。
 * 投票中
   * [もなとれ](http://vote.monatr.jp/)
   * [SWISSCEX](https://www.swisscex.com/voting)
@@ -91,7 +90,6 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 
 * [NOMP]
 * [Lava Pool]
-* [Sakura Pool]
 * [LA Mining pool](http://pool.xau.jp/)
 
 ## ブロック情報(Block explorer)
@@ -196,7 +194,6 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 [sakuracoin]: https://github.com/ohac/sakuracoin
 [GitHubからダウンロード]: https://github.com/ohac/sakuracoin-wallet/releases/
 [ge.ttからダウンロード]: http://ge.tt/8AI28VH1?c
-[Sakura Pool]: http://sakurapool.dip.jp/
 [Twitterウォレット]: http://www.sighash.info/
 [Webウォレット]: http://coins.asiru.info/index2.html
 [コイン寄付ボタン]: http://bitcoinlove.lv9.co/
