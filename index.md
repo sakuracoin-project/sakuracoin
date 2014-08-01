@@ -64,12 +64,14 @@ CPUやGPUの採掘により入手できます。現段階ではcgminerという�
 ## 外部の交換所(Exchange)
 
 * [Twitterウォレット] (Ripple内で取引可能)
+* [MonacoEx Beta](https://trade.monaco-ex.org/)
+* [Japan Scrypt Trade](http://jpnscryptrade.cart.fc2.com/)
 * [したらば掲示板交換]
 * ヤフオクやモナオクでの販売/交換もあるようです。
 * 投票中
-  * [もなとれ](http://vote.monatr.jp/)
   * [SWISSCEX](https://www.swisscex.com/voting)
   * [MintPal](https://www.mintpal.com/voting#SKR)
+  * [もなとれ](http://vote.monatr.jp/) (投票停止中)
 
 ## sakuracoin.conf 設定例
 
