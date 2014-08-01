@@ -51,7 +51,6 @@ Android用のクライアントソフト
   * Sakuracoinish-1.2.jar
     * https://github.com/ohac/sakuracoinj
     * https://github.com/ohac/Sakuracoinish
-  * Sakuracoinish-1.0.jar (少しソースと違う部分があります)
   * Vault-1.2.30.jar (少しソースと違う部分があります)
     * https://github.com/ohac/Vault
     * Vaultを使う場合はChestShopなどと組み合わせて使用してください。
