@@ -68,6 +68,8 @@ Android用のクライアントソフト
 * [したらば掲示板交換]
 * ヤフオクやモナオクでの販売/交換もあるようです。
 * 投票中
+  * [C-CEX](https://c-cex.com/?id=vote)
+  * [Ask Coin](https://askcoin.net/votes)
   * [SWISSCEX](https://www.swisscex.com/voting)
   * [MintPal](https://www.mintpal.com/voting#SKR)
   * [もなとれ](http://vote.monatr.jp/) (投票停止中)
