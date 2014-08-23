@@ -119,6 +119,7 @@ Android用のクライアントソフト
 * [Pool stats](http://pool.xau.jp/stats/)
 * [コインプレゼント(仮称)](http://giveme.chikumagumi.com/)
 * [サクラッカα版](https://twitter.com/sakuracca)
+* [ripple charts (mtrib.net)](http://ripplecharts.mtrib.net/#/markets)
 
 ## その他のコイン
 
