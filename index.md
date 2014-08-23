@@ -63,6 +63,7 @@ Android用のクライアントソフト
 ## 外部の交換所(Exchange)
 
 * [Twitterウォレット] (Ripple内で取引可能)
+  * [ripple charts (mtrib.net)](http://ripplecharts.mtrib.net/#/markets)
 * [MonacoEx Beta](https://trade.monaco-ex.org/)
 * [Japan Scrypt Trade](http://jpnscryptrade.cart.fc2.com/)
 * [したらば掲示板交換]
@@ -119,7 +120,6 @@ Android用のクライアントソフト
 * [Pool stats](http://pool.xau.jp/stats/)
 * [コインプレゼント(仮称)](http://giveme.chikumagumi.com/)
 * [サクラッカα版](https://twitter.com/sakuracca)
-* [ripple charts (mtrib.net)](http://ripplecharts.mtrib.net/#/markets)
 
 ## その他のコイン
 
