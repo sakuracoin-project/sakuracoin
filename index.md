@@ -100,7 +100,7 @@ Android用のクライアントソフト
 
 ## ブロック情報(Block explorer)
 
-* [Abe2]: http://abe2.sighash.info/
+* [Abe2](http://abe2.sighash.info/)
 * [Abe]
 
 ## Others
