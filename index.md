@@ -64,6 +64,7 @@ Android用のクライアントソフト
 
 * [Twitterウォレット] (Ripple内で取引可能)
   * [ripple charts (mtrib.net)](http://ripplecharts.mtrib.net/#/markets)
+* [BTC-Market](https://btc-market.org/?Pair=SKR_BTC)
 * [MonacoEx Beta](https://trade.monaco-ex.org/)
 * [Japan Scrypt Trade](http://jpnscryptrade.cart.fc2.com/)
 * [したらば掲示板交換]
