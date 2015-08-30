@@ -3,22 +3,11 @@ layout: default
 title: Sakuracoin
 ---
 
-<div style="position:absolute;top:20;left:400px">
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="ohac">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-<div class="fb-like" data-href="http://ohac.github.io/sakuracoin" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-</div>
-
 # ![sakuracoin64](images/sakuracoin64.png) Sakuracoin
-
-いつも「さくらコイン」にご協力いただき、ありがとうございます。
-
-195000ブロックでDigiShield V2に切り替わります。v0.8.7.2へのバージョンアップをお願いします。
 
 ## さくらコインについて
 
 さくらコインは2013/12/23に約8時間の間だけ公開されていた旧モナーコインのブロックチェインを扱える仮想通貨ソフトです。
-(わたなべ氏が作成した旧モナーコインはWindows用のバイナリしか公開されておらず、現行モナーコインへ移行することが決定したため、公開停止してしまいました。私、ohacが開発したソフトがモナーコインを名乗るのは混乱の元となるので、名前をさくらコインと名付けました。)
 
 ## ダウンロード
 
@@ -54,27 +43,14 @@ Android用のクライアントソフト
   * Vault-1.2.30.jar (少しソースと違う部分があります)
     * https://github.com/ohac/Vault
     * Vaultを使う場合はChestShopなどと組み合わせて使用してください。
-  * 36.2.132.153でBukkitサーバを立ち上げていましたが、現在は停止中です。過去の利用者様で払出しをご希望の方はご連絡ください。
-
-## さくらコインの入手
-
-クラウドマイニングやASICやGPUやCPUでの採掘により入手できます。CPUでの採掘は電気代がかなりかかるのでおすすめしません。クラウドマイニングはBTCを別途入手してプールマイニングを代行してもらう必要があります。GPUの場合は現段階ではcgminerというソフトによるGPU採掘がおすすめです。プールマイニングかソロマイニングという手法で採掘可能です。採掘難易度は日々変動しますので、こまめにチェックされることをおすすめします。nVidiaのGPUの場合はcudaminerというソフトがありますが残念ながら効率はかなり落ちます。CPUの場合はcpuminerというソフトがあります。CPUの場合は採掘所(プール)を使うことや、他のCPUで有利に採掘できるコインを採掘して交換を試みることも検討された方がよいです。
+  * Bukkitサーバを立ち上げていましたが、現在は停止中です。過去の利用者様で払出しをご希望の方はご連絡ください。
 
 ## 外部の交換所(Exchange)
 
 * [Twitterウォレット] (Ripple内で取引可能)
-  * [ripple charts (mtrib.net)](http://ripplecharts.mtrib.net/#/markets)
 * [BTC-Market](https://btc-market.org/?Pair=SKR_BTC)
-* [MonacoEx Beta](https://trade.monaco-ex.org/)
 * [Japan Scrypt Trade](http://jpnscryptrade.cart.fc2.com/)
-* [したらば掲示板交換]
-* ヤフオクやモナオクでの販売/交換もあるようです。
-* 投票中
-  * [C-CEX](https://c-cex.com/?id=vote)
-  * [Ask Coin](https://askcoin.net/votes)
-  * [SWISSCEX](https://www.swisscex.com/voting)
-  * [MintPal](https://www.mintpal.com/voting#SKR)
-  * [もなとれ](http://vote.monatr.jp/) (投票停止中)
+* [MonacoEx Beta](https://trade.monaco-ex.org/)
 
 ## sakuracoin.conf 設定例
 
@@ -86,7 +62,6 @@ Android用のクライアントソフト
 
 * Algorithm: Scrypt
 * Premine: 42 blocks (2100 SKR)
-  * プリマインはほぼありません。旧モナー公開直前に42ブロック(2100 SKR)採掘されていますが、誤差レベルです。
 * Block reward: 50 SKR
 * Block time: 1.5 minutes
 * Retarget: 2400 blocks
@@ -95,38 +70,19 @@ Android用のクライアントソフト
 
 ## 採掘所(Pools)
 
-* [NOMP]
-* [Lava Pool]
-* [LA Mining pool](http://pool.xau.jp/)
+* [LA Mining pool](https://pool.xau.jp/sakuracoin/)
 
 ## ブロック情報(Block explorer)
 
-* [Abe2](http://abe2.sighash.info/)
 * [Abe]
 
 ## Others
 
 * [addnode情報](http://seed.sighash.info/) 同期できないときにご確認ください。
 * [Twitterウォレット]
-* [Webウォレット] (テスト中)
-* [したらば掲示板]
+* [Faucet](https://pool.xau.jp/faucet/)
 * [外部Wiki1]
-* [外部Wiki2]
-* chiraura http://localhost:22266/test/read.cgi/cryptocurrency/1391240429/2
-* [コイン寄付ボタン]
-* [暗号通貨寄付ウィジェット]
-* [SkrcShop]
 * [TANUO PRO]
-* [monagraph]
-* [Faucet](https://multi.xau.jp/faucet/)
-* [Pool stats](http://pool.xau.jp/stats/)
-* [コインプレゼント(仮称)](http://giveme.chikumagumi.com/)
-* [サクラッカα版](https://twitter.com/sakuracca)
-
-## その他のコイン
-
-* ![sha1coin64](images/sha1coin64.png) [Sha1coin]
-  * 2ch等で使用されているトリップ(tripcodes)の探索も同時に行うことができます。
 
 ## ダウンロードについて
 
@@ -144,76 +100,11 @@ Android用のクライアントソフト
     fdcdd790c4cc3759413a088f83c77654 *Sakuracoinish-1.0.jar
     5b0e60bb399d1d04f38ee264ea25a3c4 *Vault-1.2.30.jar
 
-## 寄付
-
-<script src="http://coindonationwidget.com/widget/coin.js"></script>
-<script>
-  CoinWidgetCom.go({
-    wallet_address: "MNjFh6TvqYRS2xZMyfEcuKMhiitacKvysY"
-    , currency: "monacoin"
-    , counter: "count"
-    , qrcode: true
-    , auto_show: false
-    , decimals: 4
-    , lbl_button: "寄付する"
-    , lbl_address: "以下のアドレスに寄付する:"
-    , lbl_count: "回"
-    , lbl_amount: "MONA"
-  });
-</script>
-<script>
-  CoinWidgetCom.go({
-    wallet_address: "MTu6jrxp5xD6RHWeZUEpw7X5WnpmEzYTkd"
-    , currency: "sakuracoin"
-    , counter: "count"
-    , qrcode: true
-    , auto_show: false
-    , decimals: 4
-    , lbl_button: "寄付する"
-    , lbl_address: "以下のアドレスに寄付する:"
-    , lbl_count: "回"
-    , lbl_amount: "SKR"
-  });
-</script>
-<script>
-  CoinWidgetCom.go({
-    wallet_address: "SQqr32xpK6hkmDyJRvPLaLFzqzfjq1Dr6f"
-    , currency: "sha1coin"
-    , counter: "count"
-    , qrcode: true
-    , auto_show: false
-    , decimals: 4
-    , lbl_button: "寄付する"
-    , lbl_address: "以下のアドレスに寄付する:"
-    , lbl_count: "回"
-    , lbl_amount: "SHA"
-  });
-</script>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-[Bitmessage]: https://bitmessage.ch/
-[Sha1coin]: http://ohac.github.io/sha1coin/
 [ここからダウンロード]: https://github.com/ohac/sakuracoin/releases
-[したらば掲示板交換]: http://jbbs.shitaraba.net/bbs/read.cgi/internet/19552/1388817096/l50
-[したらば掲示板]: http://jbbs.shitaraba.net/internet/19552/
 [外部Wiki1]: ttp://www59.atwiki.jp/sakuracoin/
-[外部Wiki2]: ttp://www59.atwiki.jp/japancryptocurrency/pages/15.html
 [sakuracoin]: https://github.com/ohac/sakuracoin
 [GitHubからダウンロード]: https://github.com/ohac/sakuracoin-wallet/releases/
 [ge.ttからダウンロード]: http://ge.tt/8AI28VH1?c
-[Twitterウォレット]: http://www.sighash.info/
-[Webウォレット]: http://coins.asiru.info/index2.html
-[コイン寄付ボタン]: http://bitcoinlove.lv9.co/
+[Twitterウォレット]: https://wallet.sighash.info/
 [Abe]: http://abe.sighash.info/
-[SkrcShop]: http://skrcshop.blog.fc2.com/
 [TANUO PRO]: http://tanuo6.wix.com/tanuotrade
-[暗号通貨寄付ウィジェット]: http://coindonationwidget.com/jp/
-[Lava Pool]: http://new.lavapool.info/
-[monagraph]: http://monagraph.com/
-[NOMP]: http://nomp.sighash.info/
